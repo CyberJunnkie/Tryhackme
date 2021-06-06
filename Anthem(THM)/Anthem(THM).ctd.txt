@@ -1,0 +1,186 @@
+ANTHEM
+
+
+ENUMARATION
+
+
+NMAP
+
+
+WEB PORT80
+
+
+GOBUSTER
+ gobuster dir -u 10.10.145.53 -w WordLists/dirb/common.txt
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.145.53
+[+] Threads:        10
+[+] Wordlist:       WordLists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2021/03/22 13:39:36 Starting gobuster
+===============================================================
+/archive (Status: 301)
+/Archive (Status: 301)
+/authors (Status: 200)
+/blog (Status: 200)
+/Blog (Status: 200)
+/categories (Status: 200)
+[ERROR] 2021/03/22 13:41:58 [!] Get http://10.10.145.53/com1: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2021/03/22 13:41:58 [!] Get http://10.10.145.53/com2: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2021/03/22 13:41:58 [!] Get http://10.10.145.53/com3: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2021/03/22 13:42:09 [!] Get http://10.10.145.53/con: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+/install (Status: 302)
+[ERROR] 2021/03/22 13:46:18 [!] Get http://10.10.145.53/lpt1: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2021/03/22 13:46:18 [!] Get http://10.10.145.53/lpt2: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2021/03/22 13:47:59 [!] Get http://10.10.145.53/nul: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2021/03/22 13:50:03 [!] Get http://10.10.145.53/prn: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+/robots.txt (Status: 200)
+/rss (Status: 200)
+/RSS (Status: 200)
+/search (Status: 200)
+/Search (Status: 200)
+/sitemap (Status: 200)
+/SiteMap (Status: 200)
+/tags (Status: 200)
+/umbraco (Status: 200)
+===============================================================
+
+
+ROBOTS.TXT
+UmbracoIsTheBest!
+
+# Use for all search robots
+User-agent: *
+
+# Define the directories not to crawl
+Disallow: /bin/
+Disallow: /config/
+Disallow: /umbraco/
+Disallow: /umbraco_client/
+
+XML DOCUMENT
+
+
+RDP PORT 3389
+
+
+REMNINA CONNECT
+Username is sg and password is UmbracoIsTheBest!
+
+
+
+EXPLOITATION
+
+
+POST EXPLOITATION
+
+
+LOOT
+
+
+CREDENTIALS
+
+
+####     jane and doe possible usernames
+
+
+
+ Password found on robots.txt        Umbracoisthebest!
+ 
+ 
+ ### A blog post showed a poem about admin,upon googling it we found the poem was written by solomon grundy and this is admin name.HIs email is sg@anthhem.com
+ 
+ 
+ 
+ ###RDP 
+ sg:UmbracoIsTheBest!
+ 
+ 
+ ##Administrator on windows file password
+ ChangeMeBaby1MOreTime
+
+FLAGS
+###Flag 1   found in wearehiring blog
+THM{L0L_WH0_US3S_M3T4}
+
+
+
+
+### Flag2 found in main page
+
+
+THM{G!T_G00D}   
+
+
+
+##Flag3 found in jobseeking blog
+
+THM{L0L_WH0_D15}
+
+
+
+
+###Flag4 found in cheers for it department blog
+
+THM{AN0TH3R_M3TA}
+
+
+
+### User Flag
+
+
+THM{N00T_NO0T}
+
+
+
+### Root Flag
+
+THM{Y0U_4R3_1337}
+
+
+POC
+1- Main webpage code analysis gave us our flag#2     THM{G!T_G00D}
+
+
+2-  Author directory on webpage gave us our flag#3   THM{L0L_WH0_D15}
+
+
+3- robots.txt gives us a possible password   Umbracoisthebest!
+
+
+4- We are hiring blog had our first flag     THM{L0L_WH0_US3S_M3T4} 
+
+
+5-  A blog post showed a poem about admin,upon googling it we found the poem was written by solomon grundy and this is admin name.HIs email is sg@anthhem.com
+
+
+6- second blog had our 4th flag  THM{AN0TH3R_M3TA}
+
+
+7-  Now we connect to the machine using remnina   Remnina connect
+
+
+
+
+8- Now we got a file in backup folder but we couldnt read it so we changed it permissions by goind to properties,security and edit permissions then adding our usergroup
+
+
+
+
+9-  Password is   ChangeMeBaby1MOreTime
+
+
+
+10- NOw we can login as admin  
+
+
+
+
+11- Root flag is THM{Y0U_4R3_1337} 
+

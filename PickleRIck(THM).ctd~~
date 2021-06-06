@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="PickleRIck(THM)" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1615987566" ts_lastsave="1615987606">
+    <node name="Notes" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1615987572" ts_lastsave="1615987917">
+      <rich_text>1- WEb based exploitation
+2- port 22,80 open
+3- </rich_text>
+    </node>
+    <node name="Nmap" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1615987579" ts_lastsave="1615987757">
+      <rich_text>nmap -p22,80 10.10.128.64 -T4 -A                                  
+Starting Nmap 7.91 ( </rich_text>
+      <rich_text link="webs https://nmap.org">https://nmap.org</rich_text>
+      <rich_text> ) at 2021-03-17 09:28 EDT
+Nmap scan report for 10.10.128.64
+Host is up (0.45s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.6 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 d2:b7:28:fa:f8:8f:2f:12:1e:16:7d:0e:8a:0f:eb:66 (RSA)
+|   256 80:4a:5a:68:b3:0b:e4:b0:e5:3e:db:4d:a8:5d:2f:a0 (ECDSA)
+|_  256 77:3b:7f:f5:02:fe:3c:6f:c0:19:21:ce:94:f4:21:cc (ED25519)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Rick is sup4r cool
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 3.13 (95%), Linux 5.4 (95%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.16 (95%), Linux 3.1 (93%), Linux 3.2 (93%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (92%), Sony Android TV (Android 5.0) (92%), Android 5.0 - 6.0.1 (Linux 3.4) (92%), Android 5.1 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT       ADDRESS
+1   192.24 ms 10.4.0.1
+2   ... 3
+4   448.09 ms 10.10.128.64
+
+OS and Service detection performed. Please report any incorrect results at </rich_text>
+      <rich_text link="webs https://nmap.org/submit/">https://nmap.org/submit/</rich_text>
+      <rich_text> .
+Nmap done: 1 IP address (1 host up) scanned in 37.07 seconds
+                                                                    </rich_text>
+    </node>
+    <node name="gobuster" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1615987606" ts_lastsave="1615987912">
+      <rich_text>gobuster dir -u 10.10.128.64 -w WordLists/dirb/common.txt 
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            </rich_text>
+      <rich_text link="webs http://10.10.128.64">http://10.10.128.64</rich_text>
+      <rich_text>
+[+] Threads:        10
+[+] Wordlist:       WordLists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2021/03/17 09:27:33 Starting gobuster
+===============================================================
+/.hta (Status: 403)
+/.htpasswd (Status: 403)
+/.htaccess (Status: 403)
+/assets (Status: 301)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+===============================================================
+2021/03/17 09:31:08 Finished
+</rich_text>
+    </node>
+  </node>
+</cherrytree>

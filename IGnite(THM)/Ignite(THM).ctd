@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="Ignite(THM)" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614339836" ts_lastsave="1614340322">
+    <node name="NOtes" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614340322" ts_lastsave="1614348582">
+      <rich_text>1- Only port 80 open
+2- Fuel cms 1.4 is beiing used
+3- Found an rce exploit
+CVE-2018-16763
+4- using the exploit i was limited to limiting commands
+exploit example 
+exploit.rb &lt;http://url/&gt; ‘commands’ use ${IFS} instead of spaces 
+5- We have to give all commands at runtime because exploit run from start evertime we run it.Means it is not a dynamic shell.
+6- I tried nc reverse shells but they didnt worked.AFter seeing a walkhtrough we had to wegt a php reverse shell and then run that shell from browser because we are in var/www/html directory
+7- after getting shell we get user flag .
+8- i tried many privesc exploits but wasnt succesful
+9- the trick to get root was actually given on main page of website itself as follows:
+Install the FUEL CMS database by first creating the database in MySQL and then importing the </rich_text>
+      <rich_text weight="heavy">fuel/install/fuel_schema.sql</rich_text>
+      <rich_text> file. After creating the database, change the database configuration found in </rich_text>
+      <rich_text weight="heavy">fuel/application/config/database.php</rich_text>
+      <rich_text> to include your hostname (e.g. localhost), username, password and the database to match the new database you created.
+10- In /var/www/html folder we have the fuel file and after going to aboce dir we could cat out the databse information and got us the root password which was ‘mememe’
+11- NOw su into root</rich_text>
+      <node name="Gobuster" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1614340448" ts_lastsave="1614340450">
+        <rich_text>/.htpasswd (Status: 403)
+/.htaccess (Status: 403)
+/0 (Status: 200)
+/assets (Status: 301)
+/home (Status: 200)
+/index (Status: 200)
+/index.php (Status: 200)
+/offline (Status: 200)
+[ERROR] 2021/02/26 06:50:08 [!] Get </rich_text>
+        <rich_text link="webs http://10.10.155.123/reports:">http://10.10.155.123/reports:</rich_text>
+        <rich_text> net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+===============================================================
+2021/02/26 06:51:17 Finished
+</rich_text>
+      </node>
+    </node>
+  </node>
+</cherrytree>

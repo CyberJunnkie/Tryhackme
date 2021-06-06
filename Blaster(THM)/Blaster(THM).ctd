@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="Blaster(THM)" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1615751910" ts_lastsave="1615751957">
+    <node name="Nmap" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1615751916" ts_lastsave="1615751929">
+      <rich_text>nmap -p80,3389 -A -T4 10.10.186.199  -Pn  
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+Starting Nmap 7.91 ( </rich_text>
+      <rich_text link="webs https://nmap.org">https://nmap.org</rich_text>
+      <rich_text> ) at 2021-03-14 15:51 EDT
+Nmap scan report for 10.10.186.199
+Host is up (0.49s latency).
+
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows Server
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: RETROWEB
+|   NetBIOS_Domain_Name: RETROWEB
+|   NetBIOS_Computer_Name: RETROWEB
+|   DNS_Domain_Name: RetroWeb
+|   DNS_Computer_Name: RetroWeb
+|   Product_Version: 10.0.14393
+|_  System_Time: 2021-03-14T19:52:23+00:00
+| ssl-cert: Subject: commonName=RetroWeb
+| Not valid before: 2020-12-02T03:59:43
+|_Not valid after:  2021-06-03T03:59:43
+|_ssl-date: 2021-03-14T19:52:33+00:00; -1s from scanner time.
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2016 (89%), FreeBSD 6.X (85%)
+OS CPE: cpe:/o:microsoft:windows_server_2016 cpe:/o:freebsd:freebsd:6.2
+Aggressive OS guesses: Microsoft Windows Server 2016 (89%), FreeBSD 6.2-RELEASE (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 3389/tcp)
+HOP RTT       ADDRESS
+1   198.45 ms 10.4.0.1
+2   ... 3
+4   468.36 ms 10.10.186.199
+
+OS and Service detection performed. Please report any incorrect results at </rich_text>
+      <rich_text link="webs https://nmap.org/submit/">https://nmap.org/submit/</rich_text>
+      <rich_text> .
+Nmap done: 1 IP address (1 host up) scanned in 43.86 seconds
+</rich_text>
+    </node>
+    <node name="Notes" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1615751937" ts_lastsave="1615751963">
+      <rich_text>1- IIS default webserver open
+2-  IIS SERVER VERSION 10.0
+3- secret direcory named retro found
+4- found a username and his possible password
+ wade:parzival
+5-rdp into it
+6- USer flag:        THM{HACK_PLAYER_ONE}
+7- Searched though users history and found that he was researching for a CVE
+8- CVE 2019-1388
+9- Found a way to reproduce it
+STEPS:
+     1-open the exploit exe 
+     2- when prompt asks for admin password clicl]k show more
+     3- the there click view certificate
+     4- open explorer and save the html file
+     5- windows where it asks where to save the html ,open a command terminal there by pressing shift+f10 
+     6- we are root
+
+10- root.txt :   thm{coin_operated_exploitation}
+11- used metasploit webdelivery backdoor for permannet access and maintaing our access(BONUS)
+ </rich_text>
+    </node>
+  </node>
+</cherrytree>
