@@ -1,0 +1,7 @@
+SVC-Kerb
+guest
+administrator
+ustoun
+krbtgt
+kerberos
+sqlservice

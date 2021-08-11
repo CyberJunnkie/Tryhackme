@@ -1,0 +1,10 @@
+12th January: Note to self. Our IDS seems to be experiencing high volumes of unusual activity.
+We need to contact our security consultants as soon as possible. I fear something bad is going
+to happen. -adam
+
+13th January: We've included the wireshark files to log all of the unusual activity. It keeps
+occuring during midnight. I am not sure why.. This is very odd... -adam
+
+15th January: I could swear I created a new blog just yesterday. For some reason it is gone... -adam
+
+24th January: Of course it is... - super-spam :)
