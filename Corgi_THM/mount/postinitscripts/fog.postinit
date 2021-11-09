@@ -1,0 +1,5 @@
+#!/bin/bash
+## This file serves as a starting point to call your custom pre-imaging/post init loading scripts.
+## <SCRIPTNAME> should be changed to the script you're planning to use.
+## Syntax of post init scripts are
+#. ${postinitpath}<SCRIPTNAME>
