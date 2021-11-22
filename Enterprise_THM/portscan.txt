@@ -1,0 +1,301 @@
+[1m[38;2;0;255;0m.[38;2;0;255;6m-[38;2;0;255;13m-[38;2;0;255;19m-[38;2;0;255;25m-[38;2;0;255;32m.[38;2;0;255;38m [38;2;0;255;45m.[38;2;0;255;51m-[38;2;0;255;57m.[38;2;0;255;64m [38;2;0;255;70m.[38;2;0;255;76m-[38;2;0;255;83m.[38;2;0;255;89m [38;2;0;255;96m.[38;2;0;255;102m-[38;2;0;255;108m-[38;2;0;255;115m-[38;2;0;255;121m-[38;2;0;255;127m.[38;2;0;255;134m.[38;2;0;255;140m-[38;2;0;255;147m-[38;2;0;255;153m-[38;2;0;255;159m.[38;2;0;255;166m [38;2;0;255;172m [38;2;0;255;178m.[38;2;0;255;185m-[38;2;0;255;191m-[38;2;0;255;198m-[38;2;0;255;204m-[38;2;0;255;210m.[38;2;0;255;217m [38;2;0;255;223m.[38;2;0;255;229m-[38;2;0;255;236m-[38;2;0;255;242m-[38;2;0;255;249m.[38;2;0;255;255m [38;2;0;249;255m [38;2;0;242;255m [38;2;0;236;255m.[38;2;0;230;255m-[38;2;0;223;255m-[38;2;0;217;255m.[38;2;0;210;255m [38;2;0;204;255m [38;2;0;198;255m.[38;2;0;191;255m-[38;2;0;185;255m.[38;2;0;179;255m [38;2;0;172;255m.[38;2;0;166;255m-[38;2;0;159;255m.[0m
+[38;2;0;255;0m|[38;2;0;255;6m [38;2;0;255;13m{[38;2;0;255;19m}[38;2;0;255;25m [38;2;0;255;32m [38;2;0;255;38m}[38;2;0;255;45m|[38;2;0;255;51m [38;2;0;255;57m{[38;2;0;255;64m [38;2;0;255;70m}[38;2;0;255;76m [38;2;0;255;83m|[38;2;0;255;89m{[38;2;0;255;96m [38;2;0;255;102m{[38;2;0;255;108m_[38;2;0;255;115m_[38;2;0;255;121m [38;2;0;255;127m{[38;2;0;255;134m_[38;2;0;255;140m [38;2;0;255;147m [38;2;0;255;153m [38;2;0;255;159m_[38;2;0;255;166m}[38;2;0;255;172m{[38;2;0;255;178m [38;2;0;255;185m{[38;2;0;255;191m_[38;2;0;255;198m_[38;2;0;255;204m [38;2;0;255;210m [38;2;0;255;217m/[38;2;0;255;223m [38;2;0;255;229m [38;2;0;255;236m_[38;2;0;255;242m_[38;2;0;255;249m_[38;2;0;255;255m}[38;2;0;249;255m [38;2;0;242;255m/[38;2;0;236;255m [38;2;0;230;255m{[38;2;0;223;255m}[38;2;0;217;255m [38;2;0;210;255m\[38;2;0;204;255m [38;2;0;198;255m|[38;2;0;191;255m [38;2;0;185;255m [38;2;0;179;255m`[38;2;0;172;255m|[38;2;0;166;255m [38;2;0;159;255m|[0m
+[38;2;0;255;0m|[38;2;0;255;6m [38;2;0;255;13m.[38;2;0;255;19m-[38;2;0;255;25m.[38;2;0;255;32m [38;2;0;255;38m\[38;2;0;255;45m|[38;2;0;255;51m [38;2;0;255;57m{[38;2;0;255;64m_[38;2;0;255;70m}[38;2;0;255;76m [38;2;0;255;83m|[38;2;0;255;89m.[38;2;0;255;96m-[38;2;0;255;102m.[38;2;0;255;108m_[38;2;0;255;115m}[38;2;0;255;121m [38;2;0;255;127m}[38;2;0;255;134m [38;2;0;255;140m|[38;2;0;255;147m [38;2;0;255;153m|[38;2;0;255;159m [38;2;0;255;166m [38;2;0;255;172m.[38;2;0;255;178m-[38;2;0;255;185m.[38;2;0;255;191m_[38;2;0;255;198m}[38;2;0;255;204m [38;2;0;255;210m}[38;2;0;255;217m\[38;2;0;255;223m [38;2;0;255;229m [38;2;0;255;236m [38;2;0;255;242m [38;2;0;255;249m [38;2;0;255;255m}[38;2;0;249;255m/[38;2;0;242;255m [38;2;0;236;255m [38;2;0;230;255m/[38;2;0;223;255m\[38;2;0;217;255m [38;2;0;210;255m [38;2;0;204;255m\[38;2;0;198;255m|[38;2;0;191;255m [38;2;0;185;255m|[38;2;0;179;255m\[38;2;0;172;255m [38;2;0;166;255m [38;2;0;159;255m|[0m
+[38;2;0;255;0m`[38;2;0;255;6m-[38;2;0;255;13m'[38;2;0;255;19m [38;2;0;255;25m`[38;2;0;255;32m-[38;2;0;255;38m'[38;2;0;255;45m`[38;2;0;255;51m-[38;2;0;255;57m-[38;2;0;255;64m-[38;2;0;255;70m-[38;2;0;255;76m-[38;2;0;255;83m'[38;2;0;255;89m`[38;2;0;255;96m-[38;2;0;255;102m-[38;2;0;255;108m-[38;2;0;255;115m-[38;2;0;255;121m'[38;2;0;255;127m [38;2;0;255;134m [38;2;0;255;140m`[38;2;0;255;147m-[38;2;0;255;153m'[38;2;0;255;159m [38;2;0;255;166m [38;2;0;255;172m`[38;2;0;255;178m-[38;2;0;255;185m-[38;2;0;255;191m-[38;2;0;255;198m-[38;2;0;255;204m'[38;2;0;255;210m [38;2;0;255;217m [38;2;0;255;223m`[38;2;0;255;229m-[38;2;0;255;236m-[38;2;0;255;242m-[38;2;0;255;249m'[38;2;0;255;255m [38;2;0;249;255m`[38;2;0;242;255m-[38;2;0;236;255m'[38;2;0;230;255m [38;2;0;223;255m [38;2;0;217;255m`[38;2;0;210;255m-[38;2;0;204;255m'[38;2;0;198;255m`[38;2;0;191;255m-[38;2;0;185;255m'[38;2;0;179;255m [38;2;0;172;255m`[38;2;0;166;255m-[38;2;0;159;255m'[0m
+[38;2;0;255;0mT[38;2;0;255;6mh[38;2;0;255;13me[38;2;0;255;19m [38;2;0;255;25mM[38;2;0;255;32mo[38;2;0;255;38md[38;2;0;255;45me[38;2;0;255;51mr[38;2;0;255;57mn[38;2;0;255;64m [38;2;0;255;70mD[38;2;0;255;76ma[38;2;0;255;83my[38;2;0;255;89m [38;2;0;255;96mP[38;2;0;255;102mo[38;2;0;255;108mr[38;2;0;255;115mt[38;2;0;255;121m [38;2;0;255;127mS[38;2;0;255;134mc[38;2;0;255;140ma[38;2;0;255;147mn[38;2;0;255;153mn[38;2;0;255;159me[38;2;0;255;166mr[38;2;0;255;172m.[0m[0m
+[1m[38;2;255;255;0m_[38;2;249;255;0m_[38;2;242;255;0m_[38;2;236;255;0m_[38;2;230;255;0m_[38;2;223;255;0m_[38;2;217;255;0m_[38;2;210;255;0m_[38;2;204;255;0m_[38;2;198;255;0m_[38;2;191;255;0m_[38;2;185;255;0m_[38;2;179;255;0m_[38;2;172;255;0m_[38;2;166;255;0m_[38;2;159;255;0m_[38;2;153;255;0m_[38;2;147;255;0m_[38;2;140;255;0m_[38;2;134;255;0m_[38;2;128;255;0m_[38;2;121;255;0m_[38;2;115;255;0m_[38;2;108;255;0m_[38;2;102;255;0m_[38;2;96;255;0m_[38;2;89;255;0m_[38;2;83;255;0m_[38;2;77;255;0m_[38;2;70;255;0m_[38;2;64;255;0m_[38;2;57;255;0m_[38;2;51;255;0m_[38;2;45;255;0m_[38;2;38;255;0m_[38;2;32;255;0m_[38;2;26;255;0m_[38;2;19;255;0m_[38;2;13;255;0m_[38;2;6;255;0m_[0m
+[38;2;255;255;0m:[38;2;249;255;0m [38;2;242;255;0mh[38;2;236;255;0mt[38;2;230;255;0mt[38;2;223;255;0mp[38;2;217;255;0ms[38;2;210;255;0m:[38;2;204;255;0m/[38;2;198;255;0m/[38;2;191;255;0md[38;2;185;255;0mi[38;2;179;255;0ms[38;2;172;255;0mc[38;2;166;255;0mo[38;2;159;255;0mr[38;2;153;255;0md[38;2;147;255;0m.[38;2;140;255;0mg[38;2;134;255;0mg[38;2;128;255;0m/[38;2;121;255;0mG[38;2;115;255;0mF[38;2;108;255;0mr[38;2;102;255;0mQ[38;2;96;255;0ms[38;2;89;255;0mG[38;2;83;255;0my[38;2;77;255;0m [38;2;70;255;0m [38;2;64;255;0m [38;2;57;255;0m [38;2;51;255;0m [38;2;45;255;0m [38;2;38;255;0m [38;2;32;255;0m [38;2;26;255;0m [38;2;19;255;0m [38;2;13;255;0m [38;2;6;255;0m:[0m
+[38;2;255;255;0m:[38;2;249;255;0m [38;2;242;255;0mh[38;2;236;255;0mt[38;2;230;255;0mt[38;2;223;255;0mp[38;2;217;255;0ms[38;2;210;255;0m:[38;2;204;255;0m/[38;2;198;255;0m/[38;2;191;255;0mg[38;2;185;255;0mi[38;2;179;255;0mt[38;2;172;255;0mh[38;2;166;255;0mu[38;2;159;255;0mb[38;2;153;255;0m.[38;2;147;255;0mc[38;2;140;255;0mo[38;2;134;255;0mm[38;2;128;255;0m/[38;2;121;255;0mR[38;2;115;255;0mu[38;2;108;255;0ms[38;2;102;255;0mt[38;2;96;255;0mS[38;2;89;255;0mc[38;2;83;255;0ma[38;2;77;255;0mn[38;2;70;255;0m/[38;2;64;255;0mR[38;2;57;255;0mu[38;2;51;255;0ms[38;2;45;255;0mt[38;2;38;255;0mS[38;2;32;255;0mc[38;2;26;255;0ma[38;2;19;255;0mn[38;2;13;255;0m [38;2;6;255;0m:[0m
+[38;2;255;255;0m [38;2;249;255;0m-[38;2;242;255;0m-[38;2;236;255;0m-[38;2;230;255;0m-[38;2;223;255;0m-[38;2;217;255;0m-[38;2;210;255;0m-[38;2;204;255;0m-[38;2;198;255;0m-[38;2;191;255;0m-[38;2;185;255;0m-[38;2;179;255;0m-[38;2;172;255;0m-[38;2;166;255;0m-[38;2;159;255;0m-[38;2;153;255;0m-[38;2;147;255;0m-[38;2;140;255;0m-[38;2;134;255;0m-[38;2;128;255;0m-[38;2;121;255;0m-[38;2;115;255;0m-[38;2;108;255;0m-[38;2;102;255;0m-[38;2;96;255;0m-[38;2;89;255;0m-[38;2;83;255;0m-[38;2;77;255;0m-[38;2;70;255;0m-[38;2;64;255;0m-[38;2;57;255;0m-[38;2;51;255;0m-[38;2;45;255;0m-[38;2;38;255;0m-[38;2;32;255;0m-[38;2;26;255;0m-[38;2;19;255;0m-[38;2;13;255;0m-[0m[0m
+Real hackers hack time ⌛
+
+[1;34m[~][0m The config file is expected to be at "/root/.rustscan.toml"
+[1;31m[!][0m File limit is lower than default batch size. Consider upping with --ulimit. May cause harm to sensitive servers
+[1;31m[!][0m Your file limit is very small, which negatively impacts RustScan's speed. Use the Docker image, or up the Ulimit with '--ulimit 5000'. 
+Open 10.10.217.128:53
+Open 10.10.217.128:80
+Open 10.10.217.128:88
+Open 10.10.217.128:135
+Open 10.10.217.128:139
+Open 10.10.217.128:389
+Open 10.10.217.128:464
+Open 10.10.217.128:445
+Open 10.10.217.128:593
+Open 10.10.217.128:636
+Open 10.10.217.128:3268
+Open 10.10.217.128:3269
+Open 10.10.217.128:3389
+Open 10.10.217.128:5357
+Open 10.10.217.128:5985
+Open 10.10.217.128:7990
+Open 10.10.217.128:9389
+Open 10.10.217.128:47001
+Open 10.10.217.128:49664
+Open 10.10.217.128:49665
+Open 10.10.217.128:49666
+Open 10.10.217.128:49668
+Open 10.10.217.128:49673
+Open 10.10.217.128:49671
+Open 10.10.217.128:49672
+Open 10.10.217.128:49679
+Open 10.10.217.128:49703
+Open 10.10.217.128:49709
+Open 10.10.217.128:49844
+[1;34m[~][0m Starting Script(s)
+[1;38;2;0;255;9m[>][0m Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+[1;34m[~][0m Starting Nmap 7.92 ( https://nmap.org ) at 2021-11-21 18:56 EST
+NSE: Loaded 155 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:56
+Completed NSE at 18:56, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:56
+Completed NSE at 18:56, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:56
+Completed NSE at 18:56, 0.00s elapsed
+Initiating Ping Scan at 18:56
+Scanning 10.10.217.128 [4 ports]
+Completed Ping Scan at 18:56, 0.48s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 18:56
+Completed Parallel DNS resolution of 1 host. at 18:56, 0.02s elapsed
+DNS resolution of 1 IPs took 0.02s. Mode: Async [#: 2, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating SYN Stealth Scan at 18:56
+Scanning 10.10.217.128 [29 ports]
+Discovered open port 3389/tcp on 10.10.217.128
+Discovered open port 5985/tcp on 10.10.217.128
+Discovered open port 80/tcp on 10.10.217.128
+Discovered open port 49709/tcp on 10.10.217.128
+Discovered open port 139/tcp on 10.10.217.128
+Discovered open port 135/tcp on 10.10.217.128
+Discovered open port 445/tcp on 10.10.217.128
+Discovered open port 53/tcp on 10.10.217.128
+Discovered open port 49664/tcp on 10.10.217.128
+Discovered open port 389/tcp on 10.10.217.128
+Discovered open port 3268/tcp on 10.10.217.128
+Discovered open port 47001/tcp on 10.10.217.128
+Discovered open port 49665/tcp on 10.10.217.128
+Discovered open port 49673/tcp on 10.10.217.128
+Discovered open port 49671/tcp on 10.10.217.128
+Discovered open port 3269/tcp on 10.10.217.128
+Discovered open port 88/tcp on 10.10.217.128
+Discovered open port 593/tcp on 10.10.217.128
+Discovered open port 5357/tcp on 10.10.217.128
+Discovered open port 49844/tcp on 10.10.217.128
+Discovered open port 49668/tcp on 10.10.217.128
+Discovered open port 49703/tcp on 10.10.217.128
+Discovered open port 636/tcp on 10.10.217.128
+Discovered open port 49672/tcp on 10.10.217.128
+Discovered open port 49666/tcp on 10.10.217.128
+Discovered open port 9389/tcp on 10.10.217.128
+Discovered open port 49679/tcp on 10.10.217.128
+Discovered open port 464/tcp on 10.10.217.128
+Discovered open port 7990/tcp on 10.10.217.128
+Completed SYN Stealth Scan at 18:56, 0.95s elapsed (29 total ports)
+Initiating Service scan at 18:56
+Scanning 29 services on 10.10.217.128
+Stats: 0:00:57 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 65.52% done; ETC: 18:57 (0:00:29 remaining)
+Stats: 0:01:02 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 65.52% done; ETC: 18:57 (0:00:32 remaining)
+Stats: 0:01:03 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 68.97% done; ETC: 18:57 (0:00:28 remaining)
+Stats: 0:01:03 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 72.41% done; ETC: 18:57 (0:00:24 remaining)
+Stats: 0:01:04 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 75.86% done; ETC: 18:57 (0:00:20 remaining)
+Stats: 0:01:05 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 82.76% done; ETC: 18:57 (0:00:13 remaining)
+Stats: 0:01:09 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 82.76% done; ETC: 18:57 (0:00:14 remaining)
+Completed Service scan at 18:57, 68.46s elapsed (29 services on 1 host)
+Initiating OS detection (try #1) against 10.10.217.128
+Retrying OS detection (try #2) against 10.10.217.128
+NSE: Script scanning 10.10.217.128.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:57
+Stats: 0:01:29 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 3 (1 waiting)
+NSE Timing: About 99.92% done; ETC: 18:57 (0:00:00 remaining)
+Completed NSE at 18:57, 17.47s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:57
+Debugging Decreased to 0.
+Debugging Decreased to 0.
+Stats: 0:01:35 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 7 (7 waiting)
+NSE Timing: About 96.98% done; ETC: 18:57 (0:00:00 remaining)
+Debugging Decreased to 0.
+Stats: 0:01:35 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 7 (7 waiting)
+NSE Timing: About 96.98% done; ETC: 18:57 (0:00:00 remaining)
+Debugging Decreased to 0.
+Stats: 0:01:35 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 7 (7 waiting)
+NSE Timing: About 96.98% done; ETC: 18:57 (0:00:00 remaining)
+Debugging Decreased to 0.
+Stats: 0:01:35 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 7 (7 waiting)
+NSE Timing: About 96.98% done; ETC: 18:57 (0:00:00 remaining)
+Debugging Decreased to 0.
+Stats: 0:01:45 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 1 (1 waiting)
+NSE Timing: About 99.57% done; ETC: 18:58 (0:00:00 remaining)
+Stats: 0:01:45 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 1 (1 waiting)
+NSE Timing: About 99.57% done; ETC: 18:58 (0:00:00 remaining)
+Stats: 0:01:45 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 1 (1 waiting)
+NSE Timing: About 99.57% done; ETC: 18:58 (0:00:00 remaining)
+Stats: 0:01:45 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 1 (1 waiting)
+NSE Timing: About 99.57% done; ETC: 18:58 (0:00:00 remaining)
+Completed NSE at 18:58, 14.25s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:58
+Completed NSE at 18:58, 0.00s elapsed
+Nmap scan report for 10.10.217.128
+Host is up, received echo-reply ttl 125 (0.40s latency).
+Scanned at 2021-11-21 18:56:19 EST for 106s
+
+PORT      STATE SERVICE       REASON          VERSION
+53/tcp    open  domain        syn-ack ttl 125 Simple DNS Plus
+80/tcp    open  http          syn-ack ttl 125 Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Site doesn't have a title (text/html).
+88/tcp    open  kerberos-sec  syn-ack ttl 125 Microsoft Windows Kerberos (server time: 2021-11-21 13:56:27Z)
+135/tcp   open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 125 Microsoft Windows netbios-ssn
+389/tcp   open  ldap          syn-ack ttl 125 Microsoft Windows Active Directory LDAP (Domain: ENTERPRISE.THM0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds? syn-ack ttl 125
+464/tcp   open  kpasswd5?     syn-ack ttl 125
+593/tcp   open  ncacn_http    syn-ack ttl 125 Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped    syn-ack ttl 125
+3268/tcp  open  ldap          syn-ack ttl 125 Microsoft Windows Active Directory LDAP (Domain: ENTERPRISE.THM0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped    syn-ack ttl 125
+3389/tcp  open  ms-wbt-server syn-ack ttl 125 Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: LAB-ENTERPRISE
+|   NetBIOS_Domain_Name: LAB-ENTERPRISE
+|   NetBIOS_Computer_Name: LAB-DC
+|   DNS_Domain_Name: LAB.ENTERPRISE.THM
+|   DNS_Computer_Name: LAB-DC.LAB.ENTERPRISE.THM
+|   DNS_Tree_Name: ENTERPRISE.THM
+|   Product_Version: 10.0.17763
+|_  System_Time: 2021-11-21T13:57:39+00:00
+|_ssl-date: 2021-11-21T13:57:52+00:00; -10h00m01s from scanner time.
+| ssl-cert: Subject: commonName=LAB-DC.LAB.ENTERPRISE.THM
+| Issuer: commonName=LAB-DC.LAB.ENTERPRISE.THM
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-11-20T13:48:24
+| Not valid after:  2022-05-22T13:48:24
+| MD5:   4dff da83 2f53 5162 10cb 481b 5621 5df2
+| SHA-1: 0a0c 12b3 e94c cf0a f0b7 0d91 03e4 acdf 7d05 98e2
+| -----BEGIN CERTIFICATE-----
+| MIIC9jCCAd6gAwIBAgIQT1H0G7w+PJZNQ2JeLR8KEjANBgkqhkiG9w0BAQsFADAk
+| MSIwIAYDVQQDExlMQUItREMuTEFCLkVOVEVSUFJJU0UuVEhNMB4XDTIxMTEyMDEz
+| NDgyNFoXDTIyMDUyMjEzNDgyNFowJDEiMCAGA1UEAxMZTEFCLURDLkxBQi5FTlRF
+| UlBSSVNFLlRITTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOEPTrrN
+| wQBZtTfRfrroG0D+cyiv+0e12n343K7n+CnGIQP6emO9Gw8HPTv17FLyFtVhNdWy
+| vV8Y+CpA2qhqGmrcT62hDpZAaGaNCW0u5W/m0tT14QQ1pY1sx1s4oA7NHJoFOIwQ
+| 2y8Lpcdnk2etr+LbaZQO3CA+CNrb+mgYM29NgXVqGLM8XulO72tMnDun1SxHJA2R
+| 5WO63zod6uR3gAQoNwI/L2sF04iVkQ4/47UrPVw4t2aeYwaD79p42xOVMk+dsxkq
+| tFhOJ17gKIlWpUMIUyzJ4R3V466JlicXPLJHLGLl3029lUlFDAoWAMWDJw8D+E+f
+| GC54NWW+q2Cm9pECAwEAAaMkMCIwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0P
+| BAQDAgQwMA0GCSqGSIb3DQEBCwUAA4IBAQCf0M+SSC6BiGTJrIxnG5asKk90IDDo
+| QR/bbtr6smejl0hsNl1lJPw2nzw3Q5Juax+5GGNY3uVVtibUBUvGj7eQUqV8JPdm
+| 6gf/hBuNjDWPEmJGCMdq4sjcYbwckSPwnZFRLNF99CX9xODGJwEb5byz5UuibgA5
+| 11I6VUuGU+rx0YfloWGuxd18GFCM3o6uCvSuYdd74NWJwwoL0ukF/O0y7di7dQwM
+| EOjK/D4g/41cEqlfNlt6zME/XRD56sDVRqyiCHAYo7v/eHiN2lwt4kAXcdoJXTjL
+| ENd160P5LZYD+lb24HBCaiHkWzaQL1jEHOeJl+4avE5sSzoUr+dHIUBG
+|_-----END CERTIFICATE-----
+5357/tcp  open  http          syn-ack ttl 125 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+5985/tcp  open  http          syn-ack ttl 125 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+7990/tcp  open  http          syn-ack ttl 125 Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Log in to continue - Log in with Atlassian account
+9389/tcp  open  mc-nmf        syn-ack ttl 125 .NET Message Framing
+47001/tcp open  http          syn-ack ttl 125 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49664/tcp open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+49665/tcp open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+49666/tcp open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+49668/tcp open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+49671/tcp open  ncacn_http    syn-ack ttl 125 Microsoft Windows RPC over HTTP 1.0
+49672/tcp open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+49673/tcp open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+49679/tcp open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+49703/tcp open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+49709/tcp open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+49844/tcp open  msrpc         syn-ack ttl 125 Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Microsoft Windows 10 1709 - 1909 (93%), Microsoft Windows Vista SP1 (92%), Microsoft Windows Longhorn (92%), Microsoft Windows Server 2012 (92%), Microsoft Windows 10 1709 - 1803 (91%), Microsoft Windows 10 1809 - 1909 (91%), Microsoft Windows Server 2012 R2 (91%), Microsoft Windows Server 2012 R2 Update 1 (91%), Microsoft Windows Server 2016 build 10586 - 14393 (91%), Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1 (91%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.92%E=4%D=11/21%OT=53%CT=%CU=38307%PV=Y%DS=4%DC=I%G=N%TM=619ADD0D%P=x86_64-pc-linux-gnu)
+SEQ(SP=107%GCD=1%ISR=108%TI=I%CI=I%II=I%SS=S%TS=U)
+OPS(O1=M505NW8NNS%O2=M505NW8NNS%O3=M505NW8%O4=M505NW8NNS%O5=M505NW8NNS%O6=M505NNS)
+WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)
+ECN(R=Y%DF=Y%T=80%W=FFFF%O=M505NW8NNS%CC=Y%Q=)
+T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)
+T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)
+T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 4 hops
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: LAB-DC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2021-11-21T13:57:37
+|_  start_date: N/A
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 41576/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 9373/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 19989/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 17137/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+|_clock-skew: mean: -10h00m01s, deviation: 0s, median: -10h00m01s
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:58
+Completed NSE at 18:58, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:58
+Completed NSE at 18:58, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:58
+Completed NSE at 18:58, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 106.94 seconds
+           Raw packets sent: 66 (4.324KB) | Rcvd: 67 (4.060KB)
+
