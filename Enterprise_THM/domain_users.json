@@ -1,0 +1,1552 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Joiner"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 02:14:00+00:00",
+            "2021-03-15 01:16:05+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "displayName": [
+            "Joiner"
+        ],
+        "distinguishedName": [
+            "CN=Joiner,OU=Service Accounts,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "givenName": [
+            "Joiner"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Domain Admins,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "Joiner"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{c8a8c06e-3356-467d-aa92-d61f400b9387}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1119"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-15 01:15:38.826935+00:00"
+        ],
+        "sAMAccountName": [
+            "joiner"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            36928
+        ],
+        "uSNCreated": [
+            36902
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "joiner@LAB.ENTERPRISE.THM"
+        ],
+        "whenChanged": [
+            "2021-03-15 02:14:00+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-15 01:15:38+00:00"
+        ]
+    },
+    "dn": "CN=Joiner,OU=Service Accounts,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Varg"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "displayName": [
+            "Varg"
+        ],
+        "distinguishedName": [
+            "CN=Varg,OU=Employees,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "givenName": [
+            "Varg"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=adobe-subscription,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "Varg"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{19cf3b00-9bcb-40a4-b568-5026c7c9c340}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1117"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-12 03:45:57.752680+00:00"
+        ],
+        "sAMAccountName": [
+            "varg"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            32961
+        ],
+        "uSNCreated": [
+            32956
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "varg@LAB.ENTERPRISE.THM"
+        ],
+        "whenChanged": [
+            "2021-03-12 03:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 03:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Varg,OU=Employees,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Contractor"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Change password from Password123!"
+        ],
+        "displayName": [
+            "Contractor"
+        ],
+        "distinguishedName": [
+            "CN=Contractor,OU=Employees,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "givenName": [
+            "Contractor"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=sensitive-account,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Contractor,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Password-Policy-Exemption,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "Contractor"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{03d76480-80f0-4ffb-9fd8-95ec01c3bc53}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1116"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-12 03:44:27.637169+00:00"
+        ],
+        "sAMAccountName": [
+            "contractor-temp"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            32939
+        ],
+        "uSNCreated": [
+            32933
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "contractor-temp@LAB.ENTERPRISE.THM"
+        ],
+        "whenChanged": [
+            "2021-03-12 03:45:17+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 03:44:27+00:00"
+        ]
+    },
+    "dn": "CN=Contractor,OU=Employees,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Cake"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 04:00:43+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Cake"
+        ],
+        "distinguishedName": [
+            "CN=Cake,OU=Admins,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "givenName": [
+            "Cake"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=sensitive-account,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Domain Admins,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "Cake"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{c8eabd60-ef6b-46eb-a92d-4d9d3ec1b598}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1112"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-12 03:39:42.465281+00:00"
+        ],
+        "sAMAccountName": [
+            "Cake"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            33003
+        ],
+        "uSNCreated": [
+            32883
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "Cake@LAB.ENTERPRISE.THM"
+        ],
+        "whenChanged": [
+            "2021-03-12 04:00:43+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 03:39:42+00:00"
+        ]
+    },
+    "dn": "CN=Cake,OU=Admins,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Banana"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 04:00:43+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Banana"
+        ],
+        "distinguishedName": [
+            "CN=Banana,OU=Admins,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "givenName": [
+            "Banana"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=sensitive-account,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Domain Users,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "Banana"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{f2e76c5f-8390-4a9a-ba7c-6ffdbe84d502}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1111"
+        ],
+        "primaryGroupID": [
+            512
+        ],
+        "pwdLastSet": [
+            "2021-03-12 03:37:11.078953+00:00"
+        ],
+        "sAMAccountName": [
+            "banana"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            33002
+        ],
+        "uSNCreated": [
+            32867
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "banana@LAB.ENTERPRISE.THM"
+        ],
+        "whenChanged": [
+            "2021-03-12 04:00:43+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 03:37:11+00:00"
+        ]
+    },
+    "dn": "CN=Banana,OU=Admins,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Korone"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 04:00:43+00:00",
+            "2021-03-12 03:36:10+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Korone"
+        ],
+        "distinguishedName": [
+            "CN=Korone,OU=Admins,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "givenName": [
+            "Korone"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=sensitive-account,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Account Operators,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Domain Admins,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "Korone"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{ffbcadb4-cd4a-4058-86fd-582e3ad4f3ed}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1110"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-12 03:36:10.150831+00:00"
+        ],
+        "sAMAccountName": [
+            "korone"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            33004
+        ],
+        "uSNCreated": [
+            32851
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "korone@LAB.ENTERPRISE.THM"
+        ],
+        "whenChanged": [
+            "2021-03-12 04:00:43+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 03:36:10+00:00"
+        ]
+    },
+    "dn": "CN=Korone,OU=Admins,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "spooks"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 04:00:43+00:00",
+            "2021-03-12 03:35:24+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "spooks"
+        ],
+        "distinguishedName": [
+            "CN=spooks,OU=Employees,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "givenName": [
+            "spooks"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Password-Policy-Exemption,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Account Operators,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "spooks"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{08523fc4-14d6-4a0c-a12a-ae135af56d2c}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1109"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-12 03:35:24.471041+00:00"
+        ],
+        "sAMAccountName": [
+            "spooks"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            33005
+        ],
+        "uSNCreated": [
+            32837
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "spooks@LAB.ENTERPRISE.THM"
+        ],
+        "whenChanged": [
+            "2021-03-12 04:00:43+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 03:35:24+00:00"
+        ]
+    },
+    "dn": "CN=spooks,OU=Employees,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "REPLICATION"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 03:06:11+00:00",
+            "2021-03-12 03:03:57+00:00",
+            "2021-03-12 02:57:59+00:00",
+            "1601-07-14 04:24:33+00:00"
+        ],
+        "displayName": [
+            "REPLICATION"
+        ],
+        "distinguishedName": [
+            "CN=REPLICATION,OU=Service Accounts,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "givenName": [
+            "REPLICATION"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2021-03-12 03:02:27.782719+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=sensitive-account,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "REPLICATION"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{895ffe21-f7e9-404a-aad8-dded3296b952}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1108"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-12 03:01:41.947727+00:00"
+        ],
+        "sAMAccountName": [
+            "replication"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            32821
+        ],
+        "uSNCreated": [
+            32808
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "replication@LAB.ENTERPRISE.THM"
+        ],
+        "whenChanged": [
+            "2021-03-12 03:03:57+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 02:56:40+00:00"
+        ]
+    },
+    "dn": "CN=REPLICATION,OU=Service Accounts,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2021-03-14 01:30:39.389362+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "nik"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 03:06:11+00:00",
+            "2021-03-12 02:57:59+00:00",
+            "1601-01-01 18:16:33+00:00"
+        ],
+        "displayName": [
+            "nik"
+        ],
+        "distinguishedName": [
+            "CN=nik,OU=Employees,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "givenName": [
+            "nik"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2021-03-14 01:31:17.566111+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2021-11-22 15:14:36.665119+00:00"
+        ],
+        "logonCount": [
+            2
+        ],
+        "memberOf": [
+            "CN=Contractor,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Password-Policy-Exemption,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "nik"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{3c9e5fba-2ede-41fd-9fa7-520b97b1814f}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1107"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-12 01:33:25.767788+00:00"
+        ],
+        "sAMAccountName": [
+            "nik"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            69669
+        ],
+        "uSNCreated": [
+            16670
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "nik@LAB.ENTERPRISE.THM"
+        ],
+        "whenChanged": [
+            "2021-11-22 15:14:36+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 01:25:39+00:00"
+        ]
+    },
+    "dn": "CN=nik,OU=Employees,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "2021-04-26 15:12:02.591324+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "BitBucker"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 03:06:11+00:00",
+            "2021-03-12 02:57:59+00:00",
+            "2021-03-12 01:20:01+00:00",
+            "1601-01-01 18:16:33+00:00"
+        ],
+        "displayName": [
+            "BitBucket"
+        ],
+        "distinguishedName": [
+            "CN=BitBucker,OU=Service Accounts,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "givenName": [
+            "BitBucket"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2021-04-26 15:16:41.570158+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2021-04-26 15:11:31.426846+00:00"
+        ],
+        "logonCount": [
+            27
+        ],
+        "memberOf": [
+            "CN=sensitive-account,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Password-Policy-Exemption,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Remote Desktop Users,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "BitBucker"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{0b4e841d-d564-47be-8ee8-4ab3ab1c12fd}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1106"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-12 01:20:01.333273+00:00"
+        ],
+        "sAMAccountName": [
+            "bitbucket"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "HTTP/LAB-DC"
+        ],
+        "uSNChanged": [
+            65604
+        ],
+        "uSNCreated": [
+            16655
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "bitbucket@LAB.ENTERPRISE.THM"
+        ],
+        "whenChanged": [
+            "2021-04-26 15:16:22+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 01:20:01+00:00"
+        ]
+    },
+    "dn": "CN=BitBucker,OU=Service Accounts,OU=Staff,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "ENTERPRISE$"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 03:06:11+00:00",
+            "2021-03-12 02:57:59+00:00",
+            "1601-01-01 18:16:33+00:00"
+        ],
+        "distinguishedName": [
+            "CN=ENTERPRISE$,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "ENTERPRISE$"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{6c57a81f-08d8-4f1b-b8fb-275d14b0ee8b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1104"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-12 00:41:22.231241+00:00"
+        ],
+        "sAMAccountName": [
+            "ENTERPRISE$"
+        ],
+        "sAMAccountType": [
+            805306370
+        ],
+        "uSNChanged": [
+            12966
+        ],
+        "uSNCreated": [
+            12963
+        ],
+        "userAccountControl": [
+            2080
+        ],
+        "whenChanged": [
+            "2021-03-12 00:41:22+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 00:41:22+00:00"
+        ]
+    },
+    "dn": "CN=ENTERPRISE$,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "krbtgt"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 03:06:11+00:00",
+            "2021-03-12 02:57:59+00:00",
+            "2021-03-12 00:59:04+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Key Distribution Center Service Account"
+        ],
+        "distinguishedName": [
+            "CN=krbtgt,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "krbtgt"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{33853acf-7f61-45a0-a32a-b0d97b8be023}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-502"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-12 00:31:21.598993+00:00"
+        ],
+        "sAMAccountName": [
+            "krbtgt"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "kadmin/changepw"
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "uSNChanged": [
+            16493
+        ],
+        "uSNCreated": [
+            12300
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "whenChanged": [
+            "2021-03-12 00:59:04+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 00:31:21+00:00"
+        ]
+    },
+    "dn": "CN=krbtgt,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "atlbitbucket"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 03:06:11+00:00",
+            "2021-03-12 02:57:59+00:00",
+            "2021-03-12 00:31:21+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "displayName": [
+            "Atlassian Bitbucket"
+        ],
+        "distinguishedName": [
+            "CN=atlbitbucket,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2021-03-13 01:59:48.986897+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2021-03-12 00:41:21.996847+00:00"
+        ],
+        "logonCount": [
+            14
+        ],
+        "memberOf": [
+            "CN=Performance Monitor Users,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Users,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "atlbitbucket"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{4f1a2895-a6b1-436d-9730-e20df307f129}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1000"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-11 22:52:53.389755+00:00"
+        ],
+        "sAMAccountName": [
+            "atlbitbucket"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            12961
+        ],
+        "uSNCreated": [
+            8198
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2021-03-12 00:41:21+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 00:30:39+00:00"
+        ]
+    },
+    "dn": "CN=atlbitbucket,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Guest"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 03:06:11+00:00",
+            "2021-03-12 02:57:59+00:00",
+            "2021-03-12 00:31:21+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "description": [
+            "Built-in account for guest access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Guest,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2021-04-26 15:10:53.081097+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "Guest"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{366131c9-bae2-4e7e-ac62-4c9658446139}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-501"
+        ],
+        "primaryGroupID": [
+            514
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "Guest"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            65592
+        ],
+        "uSNCreated": [
+            8197
+        ],
+        "userAccountControl": [
+            66080
+        ],
+        "whenChanged": [
+            "2021-04-26 15:10:53+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 00:30:39+00:00"
+        ]
+    },
+    "dn": "CN=Guest,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2021-03-15 05:51:09.666916+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Administrator"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 03:06:11+00:00",
+            "2021-03-12 02:57:59+00:00",
+            "2021-03-12 00:59:04+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Built-in account for administering the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrator,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2021-11-22 15:12:47.927019+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2021-11-22 15:12:47.927019+00:00"
+        ],
+        "logonCount": [
+            39
+        ],
+        "memberOf": [
+            "CN=Group Policy Creator Owners,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Domain Admins,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM",
+            "CN=Administrators,CN=Builtin,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "name": [
+            "Administrator"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{501de7c3-cb49-4199-bfcb-d5ba4beeea0b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-500"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2021-03-11 21:23:37.539040+00:00"
+        ],
+        "sAMAccountName": [
+            "Administrator"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            69667
+        ],
+        "uSNCreated": [
+            8196
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2021-11-22 15:12:47+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 00:30:39+00:00"
+        ]
+    },
+    "dn": "CN=Administrator,CN=Users,DC=LAB,DC=ENTERPRISE,DC=THM"
+}]

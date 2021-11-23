@@ -1,0 +1,144 @@
+[{
+    "attributes": {
+        "cn": [
+            "ENTERPRISE.THM"
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 03:06:11+00:00",
+            "2021-03-12 02:57:59+00:00",
+            "2021-03-12 00:31:21+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "distinguishedName": [
+            "CN=ENTERPRISE.THM,CN=System,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "flatName": [
+            "ENTERPRISE"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "ENTERPRISE.THM"
+        ],
+        "objectCategory": [
+            "CN=Trusted-Domain,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "leaf",
+            "trustedDomain"
+        ],
+        "objectGUID": [
+            "{fdf171de-a299-4d0e-8177-7be3efab9ea2}"
+        ],
+        "securityIdentifier": [
+            {
+                "encoded": "AQQAAAAAAAUVAAAA6IJgbSFo1TjTlR9D",
+                "encoding": "base64"
+            }
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "trustAttributes": [
+            32
+        ],
+        "trustDirection": [
+            3
+        ],
+        "trustPartner": [
+            "ENTERPRISE.THM"
+        ],
+        "trustPosixOffset": [
+            -2147483648
+        ],
+        "trustType": [
+            2
+        ],
+        "uSNChanged": [
+            8240
+        ],
+        "uSNCreated": [
+            8239
+        ],
+        "whenChanged": [
+            "2021-03-12 00:30:39+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 00:30:39+00:00"
+        ]
+    },
+    "dn": "CN=ENTERPRISE.THM,CN=System,DC=LAB,DC=ENTERPRISE,DC=THM"
+},{
+    "attributes": {
+        "cn": [
+            "morimori.com"
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "distinguishedName": [
+            "CN=morimori.com,CN=System,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "flatName": [
+            "morimori.com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "morimori.com"
+        ],
+        "objectCategory": [
+            "CN=Trusted-Domain,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "leaf",
+            "trustedDomain"
+        ],
+        "objectGUID": [
+            "{69a8e326-8c0f-4719-9606-b58501b99966}"
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "trustAttributes": [
+            1
+        ],
+        "trustDirection": [
+            2
+        ],
+        "trustPartner": [
+            "morimori.com"
+        ],
+        "trustPosixOffset": [
+            0
+        ],
+        "trustType": [
+            3
+        ],
+        "uSNChanged": [
+            32834
+        ],
+        "uSNCreated": [
+            32833
+        ],
+        "whenChanged": [
+            "2021-03-12 03:30:30+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 03:30:30+00:00"
+        ]
+    },
+    "dn": "CN=morimori.com,CN=System,DC=LAB,DC=ENTERPRISE,DC=THM"
+}]

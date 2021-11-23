@@ -1,0 +1,151 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "LAB-DC"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "LAB-DC.LAB.ENTERPRISE.THM"
+        ],
+        "dSCorePropagationData": [
+            "2021-03-15 01:16:05+00:00",
+            "2021-03-12 03:06:11+00:00",
+            "2021-03-12 02:57:59+00:00",
+            "2021-03-12 00:31:21+00:00",
+            "1601-07-14 22:36:49+00:00"
+        ],
+        "distinguishedName": [
+            "CN=LAB-DC,OU=Domain Controllers,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2021-11-22 15:11:52.333687+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2021-11-22 15:11:52.333687+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            68
+        ],
+        "msDFSR-ComputerReferenceBL": [
+            "CN=LAB-DC,CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "msDS-GenerationId": [
+            {
+                "encoded": "VtBZALbUIMs=",
+                "encoding": "base64"
+            }
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "LAB-DC"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{9002588d-27cf-4d40-9828-f2782d9fa4c7}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2168718921-3906202695-65158103-1001"
+        ],
+        "operatingSystem": [
+            "Windows Server 2019 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (17763)"
+        ],
+        "primaryGroupID": [
+            516
+        ],
+        "pwdLastSet": [
+            "2021-11-22 15:11:12.539253+00:00"
+        ],
+        "rIDSetReferences": [
+            "CN=RID Set,CN=LAB-DC,OU=Domain Controllers,DC=LAB,DC=ENTERPRISE,DC=THM"
+        ],
+        "sAMAccountName": [
+            "LAB-DC$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "serverReferenceBL": [
+            "CN=LAB-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=ENTERPRISE,DC=THM"
+        ],
+        "servicePrincipalName": [
+            "TERMSRV/LAB-DC",
+            "TERMSRV/LAB-DC.LAB.ENTERPRISE.THM",
+            "ldap/LAB-DC.LAB.ENTERPRISE.THM/DomainDnsZones.LAB.ENTERPRISE.THM",
+            "ldap/LAB-DC.LAB.ENTERPRISE.THM/ForestDnsZones.ENTERPRISE.THM",
+            "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/LAB-DC.LAB.ENTERPRISE.THM",
+            "DNS/LAB-DC.LAB.ENTERPRISE.THM",
+            "GC/LAB-DC.LAB.ENTERPRISE.THM/ENTERPRISE.THM",
+            "RestrictedKrbHost/LAB-DC.LAB.ENTERPRISE.THM",
+            "RestrictedKrbHost/LAB-DC",
+            "RPC/34983226-83f0-4cee-928e-746badd9761f._msdcs.ENTERPRISE.THM",
+            "HOST/LAB-DC/LAB-ENTERPRISE",
+            "HOST/LAB-DC.LAB.ENTERPRISE.THM/LAB-ENTERPRISE",
+            "HOST/LAB-DC",
+            "HOST/LAB-DC.LAB.ENTERPRISE.THM",
+            "HOST/LAB-DC.LAB.ENTERPRISE.THM/LAB.ENTERPRISE.THM",
+            "E3514235-4B06-11D1-AB04-00C04FC2DCD2/34983226-83f0-4cee-928e-746badd9761f/LAB.ENTERPRISE.THM",
+            "ldap/LAB-DC/LAB-ENTERPRISE",
+            "ldap/34983226-83f0-4cee-928e-746badd9761f._msdcs.ENTERPRISE.THM",
+            "ldap/LAB-DC.LAB.ENTERPRISE.THM/LAB-ENTERPRISE",
+            "ldap/LAB-DC",
+            "ldap/LAB-DC.LAB.ENTERPRISE.THM",
+            "ldap/LAB-DC.LAB.ENTERPRISE.THM/LAB.ENTERPRISE.THM"
+        ],
+        "uSNChanged": [
+            69660
+        ],
+        "uSNCreated": [
+            12293
+        ],
+        "userAccountControl": [
+            532480
+        ],
+        "whenChanged": [
+            "2021-11-22 15:11:52+00:00"
+        ],
+        "whenCreated": [
+            "2021-03-12 00:31:21+00:00"
+        ]
+    },
+    "dn": "CN=LAB-DC,OU=Domain Controllers,DC=LAB,DC=ENTERPRISE,DC=THM"
+}]

@@ -1,0 +1,2 @@
+cn	sAMAccountName	dNSHostName	operatingSystem	operatingSystemServicePack	operatingSystemVersion	lastLogon	userAccountControl	whenCreated	objectSid	description
+LAB-DC	LAB-DC$	LAB-DC.LAB.ENTERPRISE.THM	Windows Server 2019 Standard		10.0 (17763)	2021-11-22 15:11:52.333687+00:00	TRUSTED_FOR_DELEGATION, SERVER_TRUST_ACCOUNT	2021-03-12 00:31:21+00:00	S-1-5-21-2168718921-3906202695-65158103-1001	

@@ -1,3 +1,9 @@
+korone
+varg
+contractor-temp
+replication
+ENTERPRISE$
+LAB-DC$
 Administrator
 albitcucket
 atlbitbucket
