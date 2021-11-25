@@ -1,0 +1,6 @@
+tree e3361e96c0a9db20541033f254df272deeb9dba7
+parent 047afea4868d8b4ce8e7d6ca9eec9c82e3fe2161
+author evs <evs@harder.htb> 1570115543 +0300
+committer evs <evs@harder.htb> 1570115543 +0300
+
+add gitignore
