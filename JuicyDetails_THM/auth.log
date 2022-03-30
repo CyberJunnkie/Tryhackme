@@ -1,0 +1,206 @@
+Apr 11 09:38:29 thunt sshd[8162]: Failed password for www-data from 192.168.10.5 port 40066 ssh2
+Apr 11 09:38:30 thunt sshd[8162]: Failed password for www-data from 192.168.10.5 port 40066 ssh2
+Apr 11 09:38:30 thunt sshd[8162]: Connection closed by authenticating user www-data 192.168.10.5 port 40066 [preauth]
+Apr 11 09:39:01 thunt CRON[8164]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 09:39:01 thunt CRON[8164]: pam_unix(cron:session): session closed for user root
+Apr 11 09:39:35 thunt sshd[8224]: Received disconnect from 192.168.10.5 port 40070:11: Bye Bye [preauth]
+Apr 11 09:39:35 thunt sshd[8224]: Disconnected from authenticating user www-data 192.168.10.5 port 40070 [preauth]
+Apr 11 09:39:35 thunt sshd[8232]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8234]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8229]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8237]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8235]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8228]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8230]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8231]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8233]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8227]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8226]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8236]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8244]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8250]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8253]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:35 thunt sshd[8251]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:37 thunt sshd[8232]: Failed password for www-data from 192.168.10.5 port 40084 ssh2
+Apr 11 09:39:37 thunt sshd[8234]: Failed password for www-data from 192.168.10.5 port 40088 ssh2
+Apr 11 09:39:37 thunt sshd[8237]: Failed password for www-data from 192.168.10.5 port 40094 ssh2
+Apr 11 09:39:37 thunt sshd[8229]: Failed password for www-data from 192.168.10.5 port 40078 ssh2
+Apr 11 09:39:37 thunt sshd[8235]: Failed password for www-data from 192.168.10.5 port 40090 ssh2
+Apr 11 09:39:37 thunt sshd[8228]: Failed password for www-data from 192.168.10.5 port 40076 ssh2
+Apr 11 09:39:37 thunt sshd[8230]: Failed password for www-data from 192.168.10.5 port 40080 ssh2
+Apr 11 09:39:37 thunt sshd[8231]: Failed password for www-data from 192.168.10.5 port 40082 ssh2
+Apr 11 09:39:37 thunt sshd[8233]: Failed password for www-data from 192.168.10.5 port 40086 ssh2
+Apr 11 09:39:37 thunt sshd[8227]: Failed password for www-data from 192.168.10.5 port 40074 ssh2
+Apr 11 09:39:37 thunt sshd[8226]: Failed password for www-data from 192.168.10.5 port 40072 ssh2
+Apr 11 09:39:37 thunt sshd[8236]: Failed password for www-data from 192.168.10.5 port 40092 ssh2
+Apr 11 09:39:37 thunt sshd[8244]: Failed password for www-data from 192.168.10.5 port 40100 ssh2
+Apr 11 09:39:37 thunt sshd[8250]: Failed password for www-data from 192.168.10.5 port 40102 ssh2
+Apr 11 09:39:37 thunt sshd[8253]: Failed password for www-data from 192.168.10.5 port 40106 ssh2
+Apr 11 09:39:37 thunt sshd[8251]: Failed password for www-data from 192.168.10.5 port 40104 ssh2
+Apr 11 09:39:40 thunt sshd[8232]: Failed password for www-data from 192.168.10.5 port 40084 ssh2
+Apr 11 09:39:40 thunt sshd[8234]: Failed password for www-data from 192.168.10.5 port 40088 ssh2
+Apr 11 09:39:40 thunt sshd[8229]: Failed password for www-data from 192.168.10.5 port 40078 ssh2
+Apr 11 09:39:40 thunt sshd[8228]: Failed password for www-data from 192.168.10.5 port 40076 ssh2
+Apr 11 09:39:40 thunt sshd[8235]: Failed password for www-data from 192.168.10.5 port 40090 ssh2
+Apr 11 09:39:40 thunt sshd[8237]: Failed password for www-data from 192.168.10.5 port 40094 ssh2
+Apr 11 09:39:40 thunt sshd[8231]: Failed password for www-data from 192.168.10.5 port 40082 ssh2
+Apr 11 09:39:40 thunt sshd[8227]: Failed password for www-data from 192.168.10.5 port 40074 ssh2
+Apr 11 09:39:40 thunt sshd[8230]: Failed password for www-data from 192.168.10.5 port 40080 ssh2
+Apr 11 09:39:40 thunt sshd[8233]: Failed password for www-data from 192.168.10.5 port 40086 ssh2
+Apr 11 09:39:40 thunt sshd[8236]: Failed password for www-data from 192.168.10.5 port 40092 ssh2
+Apr 11 09:39:40 thunt sshd[8244]: Failed password for www-data from 192.168.10.5 port 40100 ssh2
+Apr 11 09:39:40 thunt sshd[8226]: Failed password for www-data from 192.168.10.5 port 40072 ssh2
+Apr 11 09:39:40 thunt sshd[8253]: Failed password for www-data from 192.168.10.5 port 40106 ssh2
+Apr 11 09:39:40 thunt sshd[8250]: Failed password for www-data from 192.168.10.5 port 40102 ssh2
+Apr 11 09:39:40 thunt sshd[8251]: Failed password for www-data from 192.168.10.5 port 40104 ssh2
+Apr 11 09:39:43 thunt sshd[8232]: Failed password for www-data from 192.168.10.5 port 40084 ssh2
+Apr 11 09:39:43 thunt sshd[8234]: Failed password for www-data from 192.168.10.5 port 40088 ssh2
+Apr 11 09:39:43 thunt sshd[8228]: Failed password for www-data from 192.168.10.5 port 40076 ssh2
+Apr 11 09:39:43 thunt sshd[8229]: Failed password for www-data from 192.168.10.5 port 40078 ssh2
+Apr 11 09:39:43 thunt sshd[8231]: Failed password for www-data from 192.168.10.5 port 40082 ssh2
+Apr 11 09:39:43 thunt sshd[8235]: Failed password for www-data from 192.168.10.5 port 40090 ssh2
+Apr 11 09:39:43 thunt sshd[8233]: Failed password for www-data from 192.168.10.5 port 40086 ssh2
+Apr 11 09:39:43 thunt sshd[8230]: Failed password for www-data from 192.168.10.5 port 40080 ssh2
+Apr 11 09:39:43 thunt sshd[8227]: Failed password for www-data from 192.168.10.5 port 40074 ssh2
+Apr 11 09:39:43 thunt sshd[8237]: Failed password for www-data from 192.168.10.5 port 40094 ssh2
+Apr 11 09:39:43 thunt sshd[8244]: Failed password for www-data from 192.168.10.5 port 40100 ssh2
+Apr 11 09:39:43 thunt sshd[8226]: Failed password for www-data from 192.168.10.5 port 40072 ssh2
+Apr 11 09:39:43 thunt sshd[8236]: Failed password for www-data from 192.168.10.5 port 40092 ssh2
+Apr 11 09:39:43 thunt sshd[8253]: Failed password for www-data from 192.168.10.5 port 40106 ssh2
+Apr 11 09:39:43 thunt sshd[8250]: Failed password for www-data from 192.168.10.5 port 40102 ssh2
+Apr 11 09:39:43 thunt sshd[8251]: Failed password for www-data from 192.168.10.5 port 40104 ssh2
+Apr 11 09:39:46 thunt sshd[8232]: Failed password for www-data from 192.168.10.5 port 40084 ssh2
+Apr 11 09:39:46 thunt sshd[8234]: Failed password for www-data from 192.168.10.5 port 40088 ssh2
+Apr 11 09:39:46 thunt sshd[8229]: Failed password for www-data from 192.168.10.5 port 40078 ssh2
+Apr 11 09:39:46 thunt sshd[8235]: Failed password for www-data from 192.168.10.5 port 40090 ssh2
+Apr 11 09:39:46 thunt sshd[8237]: Failed password for www-data from 192.168.10.5 port 40094 ssh2
+Apr 11 09:39:46 thunt sshd[8226]: Failed password for www-data from 192.168.10.5 port 40072 ssh2
+Apr 11 09:39:46 thunt sshd[8231]: Failed password for www-data from 192.168.10.5 port 40082 ssh2
+Apr 11 09:39:46 thunt sshd[8227]: Failed password for www-data from 192.168.10.5 port 40074 ssh2
+Apr 11 09:39:46 thunt sshd[8228]: Failed password for www-data from 192.168.10.5 port 40076 ssh2
+Apr 11 09:39:46 thunt sshd[8230]: Failed password for www-data from 192.168.10.5 port 40080 ssh2
+Apr 11 09:39:46 thunt sshd[8233]: Failed password for www-data from 192.168.10.5 port 40086 ssh2
+Apr 11 09:39:46 thunt sshd[8236]: Failed password for www-data from 192.168.10.5 port 40092 ssh2
+Apr 11 09:39:46 thunt sshd[8250]: Failed password for www-data from 192.168.10.5 port 40102 ssh2
+Apr 11 09:39:46 thunt sshd[8244]: Failed password for www-data from 192.168.10.5 port 40100 ssh2
+Apr 11 09:39:46 thunt sshd[8253]: Failed password for www-data from 192.168.10.5 port 40106 ssh2
+Apr 11 09:39:46 thunt sshd[8251]: Failed password for www-data from 192.168.10.5 port 40104 ssh2
+Apr 11 09:39:48 thunt sshd[8232]: Failed password for www-data from 192.168.10.5 port 40084 ssh2
+Apr 11 09:39:48 thunt sshd[8234]: Failed password for www-data from 192.168.10.5 port 40088 ssh2
+Apr 11 09:39:48 thunt sshd[8229]: Failed password for www-data from 192.168.10.5 port 40078 ssh2
+Apr 11 09:39:48 thunt sshd[8227]: Failed password for www-data from 192.168.10.5 port 40074 ssh2
+Apr 11 09:39:48 thunt sshd[8228]: Failed password for www-data from 192.168.10.5 port 40076 ssh2
+Apr 11 09:39:48 thunt sshd[8231]: Failed password for www-data from 192.168.10.5 port 40082 ssh2
+Apr 11 09:39:48 thunt sshd[8237]: Failed password for www-data from 192.168.10.5 port 40094 ssh2
+Apr 11 09:39:48 thunt sshd[8235]: Failed password for www-data from 192.168.10.5 port 40090 ssh2
+Apr 11 09:39:48 thunt sshd[8230]: Failed password for www-data from 192.168.10.5 port 40080 ssh2
+Apr 11 09:39:48 thunt sshd[8233]: Failed password for www-data from 192.168.10.5 port 40086 ssh2
+Apr 11 09:39:48 thunt sshd[8226]: Failed password for www-data from 192.168.10.5 port 40072 ssh2
+Apr 11 09:39:48 thunt sshd[8236]: Failed password for www-data from 192.168.10.5 port 40092 ssh2
+Apr 11 09:39:48 thunt sshd[8244]: Failed password for www-data from 192.168.10.5 port 40100 ssh2
+Apr 11 09:39:48 thunt sshd[8250]: Failed password for www-data from 192.168.10.5 port 40102 ssh2
+Apr 11 09:39:48 thunt sshd[8253]: Failed password for www-data from 192.168.10.5 port 40106 ssh2
+Apr 11 09:39:48 thunt sshd[8251]: Failed password for www-data from 192.168.10.5 port 40104 ssh2
+Apr 11 09:39:51 thunt sshd[8232]: Failed password for www-data from 192.168.10.5 port 40084 ssh2
+Apr 11 09:39:51 thunt sshd[8234]: Failed password for www-data from 192.168.10.5 port 40088 ssh2
+Apr 11 09:39:51 thunt sshd[8229]: Failed password for www-data from 192.168.10.5 port 40078 ssh2
+Apr 11 09:39:51 thunt sshd[8228]: Failed password for www-data from 192.168.10.5 port 40076 ssh2
+Apr 11 09:39:51 thunt sshd[8237]: Failed password for www-data from 192.168.10.5 port 40094 ssh2
+Apr 11 09:39:51 thunt sshd[8235]: Failed password for www-data from 192.168.10.5 port 40090 ssh2
+Apr 11 09:39:51 thunt sshd[8231]: Failed password for www-data from 192.168.10.5 port 40082 ssh2
+Apr 11 09:39:51 thunt sshd[8233]: Failed password for www-data from 192.168.10.5 port 40086 ssh2
+Apr 11 09:39:51 thunt sshd[8230]: Failed password for www-data from 192.168.10.5 port 40080 ssh2
+Apr 11 09:39:51 thunt sshd[8227]: Failed password for www-data from 192.168.10.5 port 40074 ssh2
+Apr 11 09:39:51 thunt sshd[8244]: Failed password for www-data from 192.168.10.5 port 40100 ssh2
+Apr 11 09:39:51 thunt sshd[8250]: Failed password for www-data from 192.168.10.5 port 40102 ssh2
+Apr 11 09:39:51 thunt sshd[8226]: Failed password for www-data from 192.168.10.5 port 40072 ssh2
+Apr 11 09:39:51 thunt sshd[8236]: Failed password for www-data from 192.168.10.5 port 40092 ssh2
+Apr 11 09:39:51 thunt sshd[8253]: Failed password for www-data from 192.168.10.5 port 40106 ssh2
+Apr 11 09:39:51 thunt sshd[8251]: Failed password for www-data from 192.168.10.5 port 40104 ssh2
+Apr 11 09:39:52 thunt sshd[8232]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40084 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8232]: Disconnecting authenticating user www-data 192.168.10.5 port 40084: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8232]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8232]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8234]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40088 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8234]: Disconnecting authenticating user www-data 192.168.10.5 port 40088: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8234]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8234]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8229]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40078 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8229]: Disconnecting authenticating user www-data 192.168.10.5 port 40078: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8229]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8229]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8228]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40076 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8228]: Disconnecting authenticating user www-data 192.168.10.5 port 40076: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8227]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40074 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8227]: Disconnecting authenticating user www-data 192.168.10.5 port 40074: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8231]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40082 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8231]: Disconnecting authenticating user www-data 192.168.10.5 port 40082: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8237]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40094 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8228]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8227]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8228]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8227]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8231]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8231]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8235]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40090 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8235]: Disconnecting authenticating user www-data 192.168.10.5 port 40090: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8235]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8235]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8237]: Disconnecting authenticating user www-data 192.168.10.5 port 40094: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8237]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8237]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8233]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40086 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8233]: Disconnecting authenticating user www-data 192.168.10.5 port 40086: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8230]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40080 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8230]: Disconnecting authenticating user www-data 192.168.10.5 port 40080: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8230]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8230]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8233]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8233]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8226]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40072 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8226]: Disconnecting authenticating user www-data 192.168.10.5 port 40072: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8244]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40100 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8244]: Disconnecting authenticating user www-data 192.168.10.5 port 40100: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8244]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8244]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8226]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8226]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8236]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40092 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8236]: Disconnecting authenticating user www-data 192.168.10.5 port 40092: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8236]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8236]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8250]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40102 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8253]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40106 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8253]: Disconnecting authenticating user www-data 192.168.10.5 port 40106: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8253]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8253]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8250]: Disconnecting authenticating user www-data 192.168.10.5 port 40102: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8250]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8250]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:39:52 thunt sshd[8251]: error: maximum authentication attempts exceeded for www-data from 192.168.10.5 port 40104 ssh2 [preauth]
+Apr 11 09:39:52 thunt sshd[8251]: Disconnecting authenticating user www-data 192.168.10.5 port 40104: Too many authentication failures [preauth]
+Apr 11 09:39:52 thunt sshd[8251]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.5  user=www-data
+Apr 11 09:39:52 thunt sshd[8251]: PAM service(sshd) ignoring max retries; 6 > 3
+Apr 11 09:41:19 thunt sshd[8258]: Received disconnect from 192.168.10.5 port 40110:11: Bye Bye [preauth]
+Apr 11 09:41:19 thunt sshd[8258]: Disconnected from authenticating user www-data 192.168.10.5 port 40110 [preauth]
+Apr 11 09:41:19 thunt sshd[8260]: Accepted password for www-data from 192.168.10.5 port 40112 ssh2
+Apr 11 09:41:19 thunt sshd[8260]: pam_unix(sshd:session): session opened for user www-data by (uid=0)
+Apr 11 09:41:19 thunt systemd-logind[737]: New session 12 of user www-data.
+Apr 11 09:41:19 thunt systemd: pam_unix(systemd-user:session): session opened for user www-data by (uid=0)
+Apr 11 09:41:25 thunt sshd[8260]: pam_unix(sshd:session): session closed for user www-data
+Apr 11 09:41:25 thunt systemd-logind[737]: Session 12 logged out. Waiting for processes to exit.
+Apr 11 09:41:25 thunt systemd-logind[737]: Removed session 12.
+Apr 11 09:41:32 thunt sshd[8494]: Accepted password for www-data from 192.168.10.5 port 40114 ssh2
+Apr 11 09:41:32 thunt sshd[8494]: pam_unix(sshd:session): session opened for user www-data by (uid=0)
+Apr 11 09:41:32 thunt systemd-logind[737]: New session 14 of user www-data.
+Apr 11 09:41:44 thunt sshd[8579]: Received disconnect from 192.168.10.5 port 40114:11: disconnected by user
+Apr 11 09:41:44 thunt sshd[8579]: Disconnected from user www-data 192.168.10.5 port 40114
+Apr 11 09:41:44 thunt sshd[8494]: pam_unix(sshd:session): session closed for user www-data
+Apr 11 09:41:44 thunt systemd-logind[737]: Session 14 logged out. Waiting for processes to exit.
+Apr 11 09:41:44 thunt systemd-logind[737]: Removed session 14.
+Apr 11 09:41:46 thunt dbus-daemon[718]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 11 09:42:01 thunt sudo: pam_unix(sudo:session): session closed for user root
+Apr 11 09:42:57 thunt su: pam_unix(su:session): session closed for user thunt
+Apr 11 09:42:57 thunt su: pam_unix(su:session): session closed for user www-data
+Apr 11 09:43:35 thunt sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Apr 11 09:43:37 thunt sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
